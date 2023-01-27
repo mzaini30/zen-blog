@@ -316,7 +316,7 @@ params:
   # github page
   github:
     id: "mzaini30" # github user id
-    minStars: 5 # 最小 star 项目 / min stars
+    minStars: 1 # 最小 star 项目 / min stars
 
   # Twitter 页面设置
   # tweet page
