@@ -1,0 +1,34 @@
+---
+const tulisan = await Astro.glob("./post/*.mdx");
+
+let semuaKategori = [];
+for (let x of tulisan) {
+  semuaKategori.push(x.frontmatter.kategori);
+}
+semuaKategori = [...new Set(semuaKategori)].sort();
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zen</title>
+  </head>
+  <body>
+    <h1 class="p-3 font-bold uppercase">Zen</h1>
+    <div class="p-1 flex gap-1">
+      {
+        semuaKategori.map((x) => (
+          <a
+            class="text-sm border border-gray-300 rounded-lg px-1"
+            href={`/kategori/${x}`}
+          >
+            {x}
+          </a>
+        ))
+      }
+    </div>
+  </body>
+</html>
