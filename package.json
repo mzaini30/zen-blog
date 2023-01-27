@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mzaini30/zen-blog/issues"
   },
-  "homepage": "https://github.com/mzaini30/zen-blog#readme"
+  "homepage": "https://github.com/mzaini30/zen-blog#readme",
+  "dependencies": {
+    "astro": "^2.0.2"
+  }
 }
