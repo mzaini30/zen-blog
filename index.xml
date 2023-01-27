@@ -1,0 +1,1442 @@
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+>
+
+    <channel>
+        <title>Zen</title>
+        <atom:link href="%7balternate%20%7bRSS%20application/rss&#43;xml%20%20index%20alternate%20%20false%20false%20true%20false%20false%200%7d%20/index.xml%20https://zen.mabaiz.web.id/index.xml%7d" rel="self" type="application/rss+xml" />
+        <link>https://zen.mabaiz.web.id/</link>
+        <managingEditor>Zen</managingEditor>
+        <description>A simple, performance-first, SEO-friendly Hugo theme</description>
+        <lastBuildDate>Mon, 02 May 2022 13:12:47 +0200</lastBuildDate>
+        <language>en-us</language>
+        <generator>Hugo -- gohugo.io</generator><item>
+            <title>Shortcodes</title>
+            <link>https://zen.mabaiz.web.id/2022/05/02/shortcodes.html/</link>
+            <pubDate>Mon, 02 May 2022 13:12:47 +0200</pubDate>
+            <guid>https://zen.mabaiz.web.id/2022/05/02/shortcodes.html/</guid><description>
+
+&lt;h2 class=&#34;group &#34; id=&#34;abbr&#34;
+    &gt;Abbr&lt;a href=&#34;#abbr&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;abbr&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;MIT&lt;/span&gt;&amp;#34; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;Massachusetts&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;Institute&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;Technology&lt;/span&gt;&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;abbr title=&#34;Massachusetts Institute of Technology&#34;&gt;MIT&lt;/abbr&gt;
+
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;color-text&#34;
+    &gt;Color text&lt;a href=&#34;#color-text&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;color&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;red&lt;/span&gt;&amp;#34; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;red&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;text&lt;/span&gt;&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;color&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;green&lt;/span&gt;&amp;#34; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;green&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;text&lt;/span&gt;&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;color&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;blue&lt;/span&gt;&amp;#34; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;blue&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;text&lt;/span&gt;&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;color&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;orange&lt;/span&gt;&amp;#34; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;orange&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;text&lt;/span&gt;&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;color&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;theme&lt;/span&gt;&amp;#34; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;theme&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;text&lt;/span&gt;&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;color&lt;/span&gt; &amp;#34;#&lt;span style=&#34;color:#50fa7b&#34;&gt;a811ff&lt;/span&gt;&amp;#34; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;custom&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;color&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;text&lt;/span&gt;&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;span class=&#34;text-red-400&#34;&gt;red text&lt;/span&gt;&lt;br&gt;
+&lt;span class=&#34;text-green-400&#34;&gt;green text&lt;/span&gt;&lt;br&gt;
+&lt;span class=&#34;text-blue-400&#34;&gt;blue text&lt;/span&gt;&lt;br&gt;
+&lt;span class=&#34;text-orange-400&#34;&gt;orange text&lt;/span&gt;&lt;br&gt;
+&lt;span class=&#34;text-theme&#34;&gt;theme text&lt;/span&gt;&lt;br&gt;
+&lt;span style=&#34;color:#a811ff&#34;&gt;custom color text&lt;/span&gt;&lt;/p&gt;
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;button&#34;
+    &gt;Button&lt;a href=&#34;#button&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;15
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;button&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;content&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;Small&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;size&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;small&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;button&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;content&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;Normal&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;size&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;normal&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;button&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;content&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;Large&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;size&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;large&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;button&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;color&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;theme&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;icon&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;eva eva-heart&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;content&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;Theme Button&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;link&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;https://google.com&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;button&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;color&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;red&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;icon&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;eva eva-home&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;content&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;Red Button&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;link&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;https://google.com&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;button&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;color&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;green&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;icon&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;eva eva-twitter&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;content&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;Green Button&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;link&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;https://google.com&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;button&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;color&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;blue&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;icon&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;eva eva-github&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;content&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;Blue Button&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;link&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;https://google.com&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;button&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;color&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;orange&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;icon&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;eva eva-search&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;content&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;Orange Button&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;link&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;https://google.com&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;button-outline&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;color&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;theme&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;icon&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;eva eva-heart&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;content&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;Theme button&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;link&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;https://google.com&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;button-outline&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;color&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;red&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;icon&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;eva eva-home&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;content&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;Red Button&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;link&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;https://google.com&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;button-outline&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;color&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;green&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;icon&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;eva eva-twitter&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;content&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;Green Button&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;link&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;https://google.com&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;button-outline&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;color&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;blue&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;icon&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;eva eva-github&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;content&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;Blue Button&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;link&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;https://google.com&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;button-outline&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;color&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;orange&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;icon&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;eva eva-search&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;content&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;Orange Button&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;link&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;https://google.com&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div style=&#34;font-size: 0;&#34;&gt;
+&lt;div class=&#34;m-1 align-bottom cursor-pointer rounded text-white inline-flex items-center hover:opacity-80 transition bg-theme text-sm px-3 py-1.5&#34;&gt;
+    &lt;i class=&#34;mr-1 &#34;&gt;&lt;/i&gt;
+    &lt;span&gt;Small&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&#34;m-1 align-bottom cursor-pointer rounded text-white inline-flex items-center hover:opacity-80 transition bg-theme text-base px-4 py-2&#34;&gt;
+    &lt;i class=&#34;mr-1 &#34;&gt;&lt;/i&gt;
+    &lt;span&gt;Normal&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&#34;m-1 align-bottom cursor-pointer rounded text-white inline-flex items-center hover:opacity-80 transition bg-theme text-lg px-5 py-3&#34;&gt;
+    &lt;i class=&#34;mr-1 &#34;&gt;&lt;/i&gt;
+    &lt;span&gt;Large&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;https://google.com&#34; target=&#34;_blank&#34; class=&#34;after:hidden m-1 align-bottom cursor-pointer no-icon rounded inline-flex items-center hover:opacity-80 transition bg-theme text-base px-4 py-2&#34;&gt;
+    &lt;i class=&#34;mr-1 text-white eva eva-heart&#34;&gt;&lt;/i&gt;
+    &lt;span class=&#34; text-white&#34;&gt;Theme Button&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://google.com&#34; target=&#34;_blank&#34; class=&#34;after:hidden m-1 align-bottom cursor-pointer no-icon rounded inline-flex items-center hover:opacity-80 transition bg-red-400 text-base px-4 py-2&#34;&gt;
+    &lt;i class=&#34;mr-1 text-white eva eva-home&#34;&gt;&lt;/i&gt;
+    &lt;span class=&#34; text-white&#34;&gt;Red Button&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://google.com&#34; target=&#34;_blank&#34; class=&#34;after:hidden m-1 align-bottom cursor-pointer no-icon rounded inline-flex items-center hover:opacity-80 transition bg-green-400 text-base px-4 py-2&#34;&gt;
+    &lt;i class=&#34;mr-1 text-white eva eva-twitter&#34;&gt;&lt;/i&gt;
+    &lt;span class=&#34; text-white&#34;&gt;Green Button&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://google.com&#34; target=&#34;_blank&#34; class=&#34;after:hidden m-1 align-bottom cursor-pointer no-icon rounded inline-flex items-center hover:opacity-80 transition bg-blue-400 text-base px-4 py-2&#34;&gt;
+    &lt;i class=&#34;mr-1 text-white eva eva-github&#34;&gt;&lt;/i&gt;
+    &lt;span class=&#34; text-white&#34;&gt;Blue Button&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://google.com&#34; target=&#34;_blank&#34; class=&#34;after:hidden m-1 align-bottom cursor-pointer no-icon rounded inline-flex items-center hover:opacity-80 transition bg-orange-400 text-base px-4 py-2&#34;&gt;
+    &lt;i class=&#34;mr-1 text-white eva eva-search&#34;&gt;&lt;/i&gt;
+    &lt;span class=&#34; text-white&#34;&gt;Orange Button&lt;/span&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://google.com&#34; target=&#34;_blank&#34; class=&#34;after:hidden m-1 cursor-pointer no-icon rounded inline-flex items-center transition bg-theme/10 text-theme hover:bg-theme/5 text-base px-4 py-2&#34;&gt;
+    &lt;i class=&#34;mr-1 text-inherit eva eva-heart&#34;&gt;&lt;/i&gt;
+    &lt;span class=&#34; text-inherit&#34;&gt;Theme Button&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://google.com&#34; target=&#34;_blank&#34; class=&#34;after:hidden m-1 cursor-pointer no-icon rounded inline-flex items-center transition bg-red-500/10 text-red-500 hover:bg-red-500/5 text-base px-4 py-2&#34;&gt;
+    &lt;i class=&#34;mr-1 text-inherit eva eva-home&#34;&gt;&lt;/i&gt;
+    &lt;span class=&#34; text-inherit&#34;&gt;Red Button&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://google.com&#34; target=&#34;_blank&#34; class=&#34;after:hidden m-1 cursor-pointer no-icon rounded inline-flex items-center transition bg-green-500/10 text-green-500 hover:bg-green-500/5 text-base px-4 py-2&#34;&gt;
+    &lt;i class=&#34;mr-1 text-inherit eva eva-twitter&#34;&gt;&lt;/i&gt;
+    &lt;span class=&#34; text-inherit&#34;&gt;Green Button&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://google.com&#34; target=&#34;_blank&#34; class=&#34;after:hidden m-1 cursor-pointer no-icon rounded inline-flex items-center transition bg-blue-500/10 text-blue-500 hover:bg-blue-500/5 text-base px-4 py-2&#34;&gt;
+    &lt;i class=&#34;mr-1 text-inherit eva eva-github&#34;&gt;&lt;/i&gt;
+    &lt;span class=&#34; text-inherit&#34;&gt;Blue Button&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://google.com&#34; target=&#34;_blank&#34; class=&#34;after:hidden m-1 cursor-pointer no-icon rounded inline-flex items-center transition bg-orange-500/10 text-orange-500 hover:bg-orange-500/5 text-base px-4 py-2&#34;&gt;
+    &lt;i class=&#34;mr-1 text-inherit eva eva-search&#34;&gt;&lt;/i&gt;
+    &lt;span class=&#34; text-inherit&#34;&gt;Orange Button&lt;/span&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;text-layout&#34;
+    &gt;Text layout&lt;a href=&#34;#text-layout&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;align&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;left&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;Text&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;left&lt;/span&gt;&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;align&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;center&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;Text&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;center&lt;/span&gt;&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;align&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;right&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;Text&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;right&lt;/span&gt;&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p style=&#34;text-align:left&#34;&gt;Text left&lt;/p&gt;
+
+&lt;p style=&#34;text-align:center&#34;&gt;Text center&lt;/p&gt;
+
+&lt;p style=&#34;text-align:right&#34;&gt;Text right&lt;/p&gt;
+
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;github&#34;
+    &gt;GitHub&lt;a href=&#34;#github&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;github&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;gohugoio/hugo&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;link&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;https://github.com/gohugoio/hugo&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;description&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;The world’s fastest framework for building websites.&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;color&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;#00ADD8&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;language&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;Go&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;github my-4 rounded border p-4 dark:border-darkBorder&#34;&gt;
+    &lt;div class=&#34;flex items-center text-xl&#34;&gt;
+        &lt;i class=&#34;eva eva-github mr-2&#34;&gt;&lt;/i&gt;
+        &lt;a class=&#34;after:hidden&#34; href=&#34;https://github.com/gohugoio/hugo&#34; target=&#34;_blank&#34;&gt;gohugoio/hugo&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;my-2 leading-6&#34;&gt;The world’s fastest framework for building websites.&lt;/div&gt;
+    &lt;div class=&#34;flex items-center&#34;&gt;
+        &lt;span class=&#34;mr-1 inline-block h-3 w-3 rounded-full&#34; style=&#34;background-color:#00ADD8&#34;&gt;&lt;/span&gt;
+        &lt;span&gt;Go&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;github-auto&#34;
+    &gt;GitHub Auto&lt;a href=&#34;#github-auto&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;github-auto&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;Ice-Hazymoon/hugo-theme-luna&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;github my-4 rounded border p-4 dark:border-darkBorder&#34;&gt;
+        &lt;div class=&#34;flex items-center text-xl&#34;&gt;
+            &lt;i class=&#34;eva eva-github mr-2&#34;&gt;&lt;/i&gt;
+            &lt;a class=&#34;after:hidden&#34; href=&#34;https://github.com/Ice-Hazymoon/hugo-theme-luna&#34; target=&#34;_blank&#34;&gt;Ice-Hazymoon/hugo-theme-luna&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;my-2 leading-6&#34;&gt;A simple, performance-first, SEO-friendly Hugo theme / 一个轻量，快速，SEO 友好的 Hugo 主题&lt;/div&gt;
+        &lt;div class=&#34;flex items-center&#34;&gt;
+            &lt;div class=&#34;mr-4 inline-flex items-center&#34;&gt;
+                &lt;span class=&#34;mr-1 inline-block h-3 w-3 rounded-full&#34; style=&#34;background-color:#f1e05a&#34;&gt;&lt;/span&gt;
+                &lt;span&gt;JavaScript&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;mr-4 inline-flex items-center&#34;&gt;
+                &lt;i class=&#34;eva eva-star mr-1 text-amber-400&#34;&gt;&lt;/i&gt;
+                &lt;span&gt;194&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;inline-flex items-center&#34;&gt;
+                &lt;i class=&#34;eva eva-shuffle-2 mr-1 text-blue-500&#34;&gt;&lt;/i&gt;
+                &lt;span&gt;27&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;notice&#34;
+    &gt;Notice&lt;a href=&#34;#notice&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;15
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;notice&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;warn&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Let life be beautiful like summer flowers and death like autumn leaves.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#ff79c6&#34;&gt;notice&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;notice&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;error&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Let life be beautiful like summer flowers and death like autumn leaves.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#ff79c6&#34;&gt;notice&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;notice&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;info&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Let life be beautiful like summer flowers and death like autumn leaves.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#ff79c6&#34;&gt;notice&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;notice&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;success&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Let life be beautiful like summer flowers and death like autumn leaves.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#ff79c6&#34;&gt;notice&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;border-yellow-400 border-green-400 border-red-400 border-blue-400&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;bg-yellow-400 bg-green-400 bg-red-400 bg-blue-400&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;text-yellow-400 text-green-400 text-red-400 text-blue-400&#34;&gt;&lt;/div&gt;
+
+&lt;div
+    class=&#34;border-yellow-400 bg-yellow-400 my-4 ml-0 flex items-start rounded border-l-4 bg-opacity-10 p-5 dark:bg-darkBgAccent&#34;
+    
+&gt;
+    &lt;div class=&#34;mr-2&#34;&gt;
+        &lt;i class=&#34;eva text-yellow-400 eva-alert-circle-outline text-2xl&#34;&gt;&lt;/i&gt;
+    &lt;/div&gt;&lt;p style=&#34;margin: 0;&#34;&gt;Let life be beautiful like summer flowers and death like autumn leaves.&lt;/p&gt;&lt;/div&gt;
+
+&lt;div class=&#34;border-yellow-400 border-green-400 border-red-400 border-blue-400&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;bg-yellow-400 bg-green-400 bg-red-400 bg-blue-400&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;text-yellow-400 text-green-400 text-red-400 text-blue-400&#34;&gt;&lt;/div&gt;
+
+&lt;div
+    class=&#34;border-red-400 bg-red-400 my-4 ml-0 flex items-start rounded border-l-4 bg-opacity-10 p-5 dark:bg-darkBgAccent&#34;
+    
+&gt;
+    &lt;div class=&#34;mr-2&#34;&gt;
+        &lt;i class=&#34;eva text-red-400 eva-minus-circle-outline text-2xl&#34;&gt;&lt;/i&gt;
+    &lt;/div&gt;&lt;p style=&#34;margin: 0;&#34;&gt;Let life be beautiful like summer flowers and death like autumn leaves.&lt;/p&gt;&lt;/div&gt;
+
+&lt;div class=&#34;border-yellow-400 border-green-400 border-red-400 border-blue-400&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;bg-yellow-400 bg-green-400 bg-red-400 bg-blue-400&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;text-yellow-400 text-green-400 text-red-400 text-blue-400&#34;&gt;&lt;/div&gt;
+
+&lt;div
+    class=&#34;border-blue-400 bg-blue-400 my-4 ml-0 flex items-start rounded border-l-4 bg-opacity-10 p-5 dark:bg-darkBgAccent&#34;
+    
+&gt;
+    &lt;div class=&#34;mr-2&#34;&gt;
+        &lt;i class=&#34;eva text-blue-400 eva-question-mark-circle-outline text-2xl&#34;&gt;&lt;/i&gt;
+    &lt;/div&gt;&lt;p style=&#34;margin: 0;&#34;&gt;Let life be beautiful like summer flowers and death like autumn leaves.&lt;/p&gt;&lt;/div&gt;
+
+&lt;div class=&#34;border-yellow-400 border-green-400 border-red-400 border-blue-400&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;bg-yellow-400 bg-green-400 bg-red-400 bg-blue-400&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;text-yellow-400 text-green-400 text-red-400 text-blue-400&#34;&gt;&lt;/div&gt;
+
+&lt;div
+    class=&#34;border-green-400 bg-green-400 my-4 ml-0 flex items-start rounded border-l-4 bg-opacity-10 p-5 dark:bg-darkBgAccent&#34;
+    
+&gt;
+    &lt;div class=&#34;mr-2&#34;&gt;
+        &lt;i class=&#34;eva text-green-400 eva-checkmark-circle-2-outline text-2xl&#34;&gt;&lt;/i&gt;
+    &lt;/div&gt;&lt;p style=&#34;margin: 0;&#34;&gt;Let life be beautiful like summer flowers and death like autumn leaves.&lt;/p&gt;&lt;/div&gt;
+
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;quote&#34;
+    &gt;Quote&lt;a href=&#34;#quote&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;quote&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Let life be beautiful like summer flowers and death like autumn leaves.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#ff79c6&#34;&gt;quote&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;blockquote class=&#34;quote relative pl-10 text-gray-500 dark:text-gray-400&#34;&gt;&lt;p&gt;Let life be beautiful like summer flowers and death like autumn leaves.&lt;/p&gt;&lt;/blockquote&gt;
+
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;quote-center&#34;
+    &gt;Quote Center&lt;a href=&#34;#quote-center&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;quote-center&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;The curfew tolls the knell of parting day,  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;The lowing herd wind slowly o&amp;#39;er the lea  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;The ploughman homeward plods his weary way,  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;And leaves the world to darkness and to me.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#ff79c6&#34;&gt;quote-center&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;blockquote class=&#34;quote quote-center relative rounded-none border-y border-gray-200 py-4 text-center dark:border-darkBorder&#34;&gt;&lt;p&gt;The curfew tolls the knell of parting day,&lt;br&gt;
+The lowing herd wind slowly o&amp;rsquo;er the lea&lt;br&gt;
+The ploughman homeward plods his weary way,&lt;br&gt;
+And leaves the world to darkness and to me.&lt;/p&gt;&lt;/blockquote&gt;
+
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;tags&#34;
+    &gt;Tags&lt;a href=&#34;#tags&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;This is a {{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;tag&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;theme&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;theme&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;tag&lt;/span&gt;&amp;#34; &amp;gt;}}  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;This is a {{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;tag&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;red&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;red&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;tag&lt;/span&gt;&amp;#34; &amp;gt;}}  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;This is a {{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;tag&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;green&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;green&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;tag&lt;/span&gt;&amp;#34; &amp;gt;}}  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;This is a {{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;tag&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;blue&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;blue&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;tag&lt;/span&gt;&amp;#34; &amp;gt;}}  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;This is a {{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;tag&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;orange&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;orange&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;tag&lt;/span&gt;&amp;#34; &amp;gt;}}  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;This is a {{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;tag-outlined&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;theme&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;theme&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;tag&lt;/span&gt;&amp;#34; &amp;gt;}}  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;This is a {{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;tag-outlined&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;red&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;red&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;tag&lt;/span&gt;&amp;#34; &amp;gt;}}  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;This is a {{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;tag-outlined&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;green&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;green&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;tag&lt;/span&gt;&amp;#34; &amp;gt;}}  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;This is a {{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;tag-outlined&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;blue&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;blue&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;tag&lt;/span&gt;&amp;#34; &amp;gt;}}  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;This is a {{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;tag-outlined&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;orange&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;orange&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;tag&lt;/span&gt;&amp;#34; &amp;gt;}}  
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;This is a &lt;span class=&#34;bg-theme whitespace-nowrap rounded py-1 px-2 text-sm text-white&#34;&gt;theme tag&lt;/span&gt;
+&lt;br&gt;
+This is a &lt;span class=&#34;bg-red-500 whitespace-nowrap rounded py-1 px-2 text-sm text-white&#34;&gt;red tag&lt;/span&gt;
+&lt;br&gt;
+This is a &lt;span class=&#34;bg-green-500 whitespace-nowrap rounded py-1 px-2 text-sm text-white&#34;&gt;green tag&lt;/span&gt;
+&lt;br&gt;
+This is a &lt;span class=&#34;bg-blue-500 whitespace-nowrap rounded py-1 px-2 text-sm text-white&#34;&gt;blue tag&lt;/span&gt;
+&lt;br&gt;
+This is a &lt;span class=&#34;bg-orange-500 whitespace-nowrap rounded py-1 px-2 text-sm text-white&#34;&gt;orange tag&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;This is a &lt;span class=&#34;bg-theme/10 text-theme whitespace-nowrap rounded py-1 px-2 text-sm&#34;&gt;theme tag&lt;/span&gt;
+&lt;br&gt;
+This is a &lt;span class=&#34;bg-red-500/10 text-red-500 whitespace-nowrap rounded py-1 px-2 text-sm&#34;&gt;red tag&lt;/span&gt;
+&lt;br&gt;
+This is a &lt;span class=&#34;bg-green-500/10 text-green-500 whitespace-nowrap rounded py-1 px-2 text-sm&#34;&gt;green tag&lt;/span&gt;
+&lt;br&gt;
+This is a &lt;span class=&#34;bg-blue-500/10 text-blue-500 whitespace-nowrap rounded py-1 px-2 text-sm&#34;&gt;blue tag&lt;/span&gt;
+&lt;br&gt;
+This is a &lt;span class=&#34;bg-orange-500/10 text-orange-500 whitespace-nowrap rounded py-1 px-2 text-sm&#34;&gt;orange tag&lt;/span&gt;
+&lt;/p&gt;
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;progress-bar&#34;
+    &gt;Progress bar&lt;a href=&#34;#progress-bar&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;progress&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;999&lt;/span&gt;.&lt;span style=&#34;color:#50fa7b&#34;&gt;99&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;theme&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;Name&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;progress&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;bar&lt;/span&gt;&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;progress&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;80&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;green&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;Name&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;progress&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;bar&lt;/span&gt;&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;progress&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;77&lt;/span&gt;.&lt;span style=&#34;color:#50fa7b&#34;&gt;54&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;red&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;Name&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;progress&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;bar&lt;/span&gt;&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;progress&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;123&lt;/span&gt;.&lt;span style=&#34;color:#50fa7b&#34;&gt;45&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;blue&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;Name&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;progress&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;bar&lt;/span&gt;&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;progress&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;11&lt;/span&gt;.&lt;span style=&#34;color:#50fa7b&#34;&gt;11&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;orange&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;Name&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;progress&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;bar&lt;/span&gt;&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;div class=&#34;my-4&#34;&gt;
+    &lt;div class=&#34;flex justify-between&#34;&gt;
+        &lt;div&gt;Name of progress bar&lt;/div&gt;
+        &lt;div&gt;999.99%&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;relative w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-300&#34;&gt;
+        &lt;div class=&#34;bg-theme h-2&#34; style=&#34;width:999.99%;&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;my-4&#34;&gt;
+    &lt;div class=&#34;flex justify-between&#34;&gt;
+        &lt;div&gt;Name of progress bar&lt;/div&gt;
+        &lt;div&gt;80%&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;relative w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-300&#34;&gt;
+        &lt;div class=&#34;bg-green-400 h-2&#34; style=&#34;width:80%;&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;my-4&#34;&gt;
+    &lt;div class=&#34;flex justify-between&#34;&gt;
+        &lt;div&gt;Name of progress bar&lt;/div&gt;
+        &lt;div&gt;77.54%&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;relative w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-300&#34;&gt;
+        &lt;div class=&#34;bg-red-400 h-2&#34; style=&#34;width:77.54%;&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;my-4&#34;&gt;
+    &lt;div class=&#34;flex justify-between&#34;&gt;
+        &lt;div&gt;Name of progress bar&lt;/div&gt;
+        &lt;div&gt;123.45%&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;relative w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-300&#34;&gt;
+        &lt;div class=&#34;bg-blue-400 h-2&#34; style=&#34;width:123.45%;&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;my-4&#34;&gt;
+    &lt;div class=&#34;flex justify-between&#34;&gt;
+        &lt;div&gt;Name of progress bar&lt;/div&gt;
+        &lt;div&gt;11.11%&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;relative w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-300&#34;&gt;
+        &lt;div class=&#34;bg-orange-400 h-2&#34; style=&#34;width:11.11%;&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;accordion&#34;
+    &gt;Accordion&lt;a href=&#34;#accordion&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;accordion&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;Foods&lt;/span&gt;&amp;#34; &lt;span style=&#34;color:#50fa7b&#34;&gt;open&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;*&lt;/span&gt; Vegetables
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;*&lt;/span&gt; Fruits
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;*&lt;/span&gt; Fish
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#ff79c6&#34;&gt;accordion&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;details class=&#34;accordion rounded  border dark:border-darkBorder&#34; open&gt;
+    &lt;summary class=&#34;flex items-center px-4 py-2 font-bold before:mr-0.5 before:-mt-0.5 before:text-xl before:text-gray-400&#34;&gt;Foods&lt;/summary&gt;
+    &lt;div class=&#34;border-t px-4 py-2  dark:border-darkBorder&#34;&gt;&lt;ul&gt;
+&lt;li&gt;Vegetables&lt;/li&gt;
+&lt;li&gt;Fruits&lt;/li&gt;
+&lt;li&gt;Fish&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;divided-line&#34;
+    &gt;Divided Line&lt;a href=&#34;#divided-line&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;hr&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;some&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;text&lt;/span&gt;&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;fieldset class=&#34;my-16 border-t border-gray-300 dark:border-darkBorder&#34;&gt;
+    &lt;legend class=&#34;mx-auto my-0 px-2&#34;&gt;some text&lt;/legend&gt;
+&lt;/fieldset&gt;
+
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;hidden-text&#34;
+    &gt;Hidden Text&lt;a href=&#34;#hidden-text&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;This is a {{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;hidden-text&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;Hide&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;text&lt;/span&gt;&amp;#34; &lt;span style=&#34;color:#50fa7b&#34;&gt;blur&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;This is a {{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;hidden-text&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;Hide&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;text&lt;/span&gt;&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;This is a &lt;span class=&#34;inline-block blur-sm filter transition ease-in-out hover:filter-none&#34;&gt;Hide text&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This is a &lt;span
+        class=&#34;relative inline-block leading-none after:pointer-events-none after:absolute after:left-0 after:top-0 after:z-50 after:block after:h-full after:w-full after:rounded after:bg-darkBg after:transition after:ease-in-out hover:after:bg-transparent dark:after:bg-darkText dark:hover:after:bg-transparent&#34;
+        &gt;Hide text&lt;/span
+    &gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;7
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;8
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;hidden&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;blur&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;&amp;gt; &lt;/span&gt;&lt;span style=&#34;text-decoration:underline&#34;&gt;This is a hidden block
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;text-decoration:underline&#34;&gt;&lt;/span&gt;{{&amp;lt; /&lt;span style=&#34;color:#ff79c6&#34;&gt;hidden&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;hidden&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;*&lt;/span&gt; Vegetables
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;*&lt;/span&gt; Fruits
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;*&lt;/span&gt; Fish
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#ff79c6&#34;&gt;hidden&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;blur-sm filter transition ease-in-out hover:filter-none&#34;&gt;&lt;blockquote&gt;
+&lt;p&gt;This is a hidden block&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div
+        class=&#34;relative after:pointer-events-none after:absolute after:left-0 after:top-0 after:z-50 after:block after:h-full after:w-full after:rounded after:bg-darkBg after:transition after:ease-in-out hover:after:bg-transparent dark:after:bg-darkText dark:hover:after:bg-transparent&#34;
+    &gt;&lt;ul&gt;
+&lt;li&gt;Vegetables&lt;/li&gt;
+&lt;li&gt;Fruits&lt;/li&gt;
+&lt;li&gt;Fish&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;rating&#34;
+    &gt;Rating&lt;a href=&#34;#rating&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;The paella dish I rate {{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;rating&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;10&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;6&lt;/span&gt;&amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;The paella dish I rate &lt;span class=&#34;ml-1 inline-flex align-sub&#34;&gt;&lt;i class=&#34;eva eva-star mr-1 text-theme&#34;&gt;&lt;/i&gt;&lt;i class=&#34;eva eva-star mr-1 text-theme&#34;&gt;&lt;/i&gt;&lt;i class=&#34;eva eva-star mr-1 text-theme&#34;&gt;&lt;/i&gt;&lt;i class=&#34;eva eva-star mr-1 text-theme&#34;&gt;&lt;/i&gt;&lt;i class=&#34;eva eva-star mr-1 text-theme&#34;&gt;&lt;/i&gt;&lt;i class=&#34;eva eva-star mr-1 text-theme&#34;&gt;&lt;/i&gt;&lt;i class=&#34;eva eva-star-outline mr-1 text-gray-400&#34;&gt;&lt;/i&gt;&lt;i class=&#34;eva eva-star-outline mr-1 text-gray-400&#34;&gt;&lt;/i&gt;&lt;i class=&#34;eva eva-star-outline mr-1 text-gray-400&#34;&gt;&lt;/i&gt;&lt;i class=&#34;eva eva-star-outline mr-1 text-gray-400&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+&lt;/p&gt;
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;links-card&#34;
+    &gt;Links Card&lt;a href=&#34;#links-card&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;link-card&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;hugo-theme-luna&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;desc&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;A simple, performance-first, SEO-friendly Hugo theme&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;link&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;https://github.com/Ice-Hazymoon/hugo-theme-luna&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;img&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;https://repository-images.githubusercontent.com/486781027/dc31a9ab-66d1-49b8-a225-4f85f2329f2e&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;link-card&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;hugo-theme-luna&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;desc&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;A simple, performance-first, SEO-friendly Hugo theme&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;link&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;https://github.com/Ice-Hazymoon/hugo-theme-luna&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;a
+    href=&#34;https://github.com/Ice-Hazymoon/hugo-theme-luna&#34;
+    target=&#34;_blank&#34;
+    rel=&#34;noopener noreferrer&#34;
+    class=&#34;no-icon my-4 flex w-full cursor-pointer flex-col-reverse justify-between rounded border transition ease-in-out after:hidden hover:bg-gray-100 dark:border-darkBorder hover:dark:bg-darkBg md:flex-row&#34;
+&gt;
+    &lt;div class=&#34;flex flex-grow flex-col p-4&#34;&gt;
+        &lt;div class=&#34;flex-grow&#34;&gt;
+            &lt;div class=&#34;text-xl font-bold&#34;&gt;hugo-theme-luna&lt;/div&gt;&lt;div class=&#34;my-1 text-gray-400 line-clamp-2 dark:text-darkTextPlaceholder&#34;&gt;A simple, performance-first, SEO-friendly Hugo theme&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;flex items-center&#34;&gt;&lt;img class=&#34;link-card-img mr-1 h-3 w-3&#34; src=&#34;https://www.google.cn/s2/favicons?domain=github.com&#34; alt=&#34;&#34; /&gt;
+                &lt;div class=&#34;text-xs text-gray-400 line-clamp-1 dark:text-darkTextPlaceholder&#34;&gt;https://github.com/Ice-Hazymoon/hugo-theme-luna&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;img class=&#34;link-card-img h-32 bg-white object-contain dark:bg-transparent&#34; src=&#34;https://repository-images.githubusercontent.com/486781027/dc31a9ab-66d1-49b8-a225-4f85f2329f2e&#34; alt=&#34;hugo-theme-luna&#34; /&gt;&lt;/a&gt;
+
+&lt;a
+    href=&#34;https://github.com/Ice-Hazymoon/hugo-theme-luna&#34;
+    target=&#34;_blank&#34;
+    rel=&#34;noopener noreferrer&#34;
+    class=&#34;no-icon my-4 flex w-full cursor-pointer flex-col-reverse justify-between rounded border transition ease-in-out after:hidden hover:bg-gray-100 dark:border-darkBorder hover:dark:bg-darkBg md:flex-row&#34;
+&gt;
+    &lt;div class=&#34;flex flex-grow flex-col p-4&#34;&gt;
+        &lt;div class=&#34;flex-grow&#34;&gt;
+            &lt;div class=&#34;text-xl font-bold&#34;&gt;hugo-theme-luna&lt;/div&gt;&lt;div class=&#34;my-1 text-gray-400 line-clamp-2 dark:text-darkTextPlaceholder&#34;&gt;A simple, performance-first, SEO-friendly Hugo theme&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;flex items-center&#34;&gt;&lt;img class=&#34;link-card-img mr-1 h-3 w-3&#34; src=&#34;https://www.google.cn/s2/favicons?domain=github.com&#34; alt=&#34;&#34; /&gt;
+                &lt;div class=&#34;text-xs text-gray-400 line-clamp-1 dark:text-darkTextPlaceholder&#34;&gt;https://github.com/Ice-Hazymoon/hugo-theme-luna&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/a&gt;
+
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;carousel&#34;
+    &gt;Carousel&lt;a href=&#34;#carousel&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;carousel&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;https:&lt;/span&gt;//&lt;span style=&#34;color:#50fa7b&#34;&gt;unsplash&lt;/span&gt;.&lt;span style=&#34;color:#50fa7b&#34;&gt;it&lt;/span&gt;/&lt;span style=&#34;color:#50fa7b&#34;&gt;1920&lt;/span&gt;/&lt;span style=&#34;color:#50fa7b&#34;&gt;1080&lt;/span&gt;/?&lt;span style=&#34;color:#50fa7b&#34;&gt;random&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;1&amp;#34;&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;https:&lt;/span&gt;//&lt;span style=&#34;color:#50fa7b&#34;&gt;unsplash&lt;/span&gt;.&lt;span style=&#34;color:#50fa7b&#34;&gt;it&lt;/span&gt;/&lt;span style=&#34;color:#50fa7b&#34;&gt;1920&lt;/span&gt;/&lt;span style=&#34;color:#50fa7b&#34;&gt;1080&lt;/span&gt;/?&lt;span style=&#34;color:#50fa7b&#34;&gt;random&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;2&amp;#34;&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;https:&lt;/span&gt;//&lt;span style=&#34;color:#50fa7b&#34;&gt;unsplash&lt;/span&gt;.&lt;span style=&#34;color:#50fa7b&#34;&gt;it&lt;/span&gt;/&lt;span style=&#34;color:#50fa7b&#34;&gt;1920&lt;/span&gt;/&lt;span style=&#34;color:#50fa7b&#34;&gt;1080&lt;/span&gt;/?&lt;span style=&#34;color:#50fa7b&#34;&gt;random&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;3&amp;#34;&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;https:&lt;/span&gt;//&lt;span style=&#34;color:#50fa7b&#34;&gt;unsplash&lt;/span&gt;.&lt;span style=&#34;color:#50fa7b&#34;&gt;it&lt;/span&gt;/&lt;span style=&#34;color:#50fa7b&#34;&gt;1920&lt;/span&gt;/&lt;span style=&#34;color:#50fa7b&#34;&gt;1080&lt;/span&gt;/?&lt;span style=&#34;color:#50fa7b&#34;&gt;random&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;4&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;carousel&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;4&lt;/span&gt;.&lt;span style=&#34;color:#50fa7b&#34;&gt;jpg&lt;/span&gt;&amp;#34; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;7&lt;/span&gt;.&lt;span style=&#34;color:#50fa7b&#34;&gt;jpg&lt;/span&gt;&amp;#34; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;9&lt;/span&gt;.&lt;span style=&#34;color:#50fa7b&#34;&gt;jpg&lt;/span&gt;&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;carousel&#34;&gt;
+    &lt;div class=&#34;slider-wrapper&#34;&gt;&lt;input id=&#34;slide-852196473-0&#34;checked=&#34;checked&#34;name=&#34;slide-852196473-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-852196473-1&#34;name=&#34;slide-852196473-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-852196473-2&#34;name=&#34;slide-852196473-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-852196473-3&#34;name=&#34;slide-852196473-slides&#34; type=&#34;radio&#34; /&gt;&lt;div class=&#34;slider-arrow-nav&#34;&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-852196473-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-852196473-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-852196473-2&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-852196473-3&#34;&gt;&lt;/label&gt;&lt;/div&gt;
+        &lt;div class=&#34;slider-arrow-nav&#34;&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-852196473-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-852196473-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-852196473-2&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-852196473-3&#34;&gt;&lt;/label&gt;&lt;/div&gt;
+        &lt;div class=&#34;slider-nav&#34;&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-852196473-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-852196473-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-852196473-2&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-852196473-3&#34;&gt;&lt;/label&gt;&lt;/div&gt;
+        &lt;div class=&#34;slider-content&#34;&gt;&lt;div class=&#34;slide slide-852196473-0&#34;&gt;
+                    &lt;img src=&#34;https://unsplash.it/1920/1080/?random=1&#34; /&gt;
+                    &lt;img src=&#34;https://unsplash.it/1920/1080/?random=1&#34; alt=&#34;&#34; /&gt;
+                &lt;/div&gt;&lt;div class=&#34;slide slide-852196473-1&#34;&gt;
+                    &lt;img src=&#34;https://unsplash.it/1920/1080/?random=2&#34; /&gt;
+                    &lt;img src=&#34;https://unsplash.it/1920/1080/?random=2&#34; alt=&#34;&#34; /&gt;
+                &lt;/div&gt;&lt;div class=&#34;slide slide-852196473-2&#34;&gt;
+                    &lt;img src=&#34;https://unsplash.it/1920/1080/?random=3&#34; /&gt;
+                    &lt;img src=&#34;https://unsplash.it/1920/1080/?random=3&#34; alt=&#34;&#34; /&gt;
+                &lt;/div&gt;&lt;div class=&#34;slide slide-852196473-3&#34;&gt;
+                    &lt;img src=&#34;https://unsplash.it/1920/1080/?random=4&#34; /&gt;
+                    &lt;img src=&#34;https://unsplash.it/1920/1080/?random=4&#34; alt=&#34;&#34; /&gt;
+                &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;style&gt;#slide-852196473-0:checked ~ .slider-content .slide-852196473-0{
+                
+                opacity:1;
+            }
+            #slide-852196473-0:checked ~ .slider-nav .nav-button[for=&#34;slide-852196473-0&#34;]{
+                    background: rgba(255,255,255,1);
+            }
+            #slide-852196473-0:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-852196473-0&#34;] + .nav-arrow{
+                z-index:4;
+            }
+            #slide-852196473-0:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-852196473-0&#34;]:last-of-type{
+                z-index:2;
+            }
+            #slide-852196473-0:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-852196473-0&#34;],
+            #slide-852196473-0:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-852196473-0&#34;] ~ .nav-arrow.prev{
+                z-index:2;
+            }#slide-852196473-1:checked ~ .slider-content .slide-852196473-1{
+                
+                opacity:1;
+            }
+            #slide-852196473-1:checked ~ .slider-nav .nav-button[for=&#34;slide-852196473-1&#34;]{
+                    background: rgba(255,255,255,1);
+            }
+            #slide-852196473-1:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-852196473-1&#34;] + .nav-arrow{
+                z-index:4;
+            }
+            #slide-852196473-1:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-852196473-1&#34;]:last-of-type{
+                z-index:2;
+            }
+            #slide-852196473-1:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-852196473-1&#34;],
+            #slide-852196473-1:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-852196473-1&#34;] ~ .nav-arrow.prev{
+                z-index:2;
+            }#slide-852196473-2:checked ~ .slider-content .slide-852196473-2{
+                
+                opacity:1;
+            }
+            #slide-852196473-2:checked ~ .slider-nav .nav-button[for=&#34;slide-852196473-2&#34;]{
+                    background: rgba(255,255,255,1);
+            }
+            #slide-852196473-2:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-852196473-2&#34;] + .nav-arrow{
+                z-index:4;
+            }
+            #slide-852196473-2:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-852196473-2&#34;]:last-of-type{
+                z-index:2;
+            }
+            #slide-852196473-2:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-852196473-2&#34;],
+            #slide-852196473-2:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-852196473-2&#34;] ~ .nav-arrow.prev{
+                z-index:2;
+            }#slide-852196473-3:checked ~ .slider-content .slide-852196473-3{
+                
+                opacity:1;
+            }
+            #slide-852196473-3:checked ~ .slider-nav .nav-button[for=&#34;slide-852196473-3&#34;]{
+                    background: rgba(255,255,255,1);
+            }
+            #slide-852196473-3:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-852196473-3&#34;] + .nav-arrow{
+                z-index:4;
+            }
+            #slide-852196473-3:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-852196473-3&#34;]:last-of-type{
+                z-index:2;
+            }
+            #slide-852196473-3:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-852196473-3&#34;],
+            #slide-852196473-3:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-852196473-3&#34;] ~ .nav-arrow.prev{
+                z-index:2;
+            }&lt;/style&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;carousel&#34;&gt;
+    &lt;div class=&#34;slider-wrapper&#34;&gt;&lt;input id=&#34;slide-849752361-0&#34;checked=&#34;checked&#34;name=&#34;slide-849752361-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-849752361-1&#34;name=&#34;slide-849752361-slides&#34; type=&#34;radio&#34; /&gt;&lt;input id=&#34;slide-849752361-2&#34;name=&#34;slide-849752361-slides&#34; type=&#34;radio&#34; /&gt;&lt;div class=&#34;slider-arrow-nav&#34;&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-849752361-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-849752361-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow prev&#34; for=&#34;slide-849752361-2&#34;&gt;&lt;/label&gt;&lt;/div&gt;
+        &lt;div class=&#34;slider-arrow-nav&#34;&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-849752361-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-849752361-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-arrow next&#34; for=&#34;slide-849752361-2&#34;&gt;&lt;/label&gt;&lt;/div&gt;
+        &lt;div class=&#34;slider-nav&#34;&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-849752361-0&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-849752361-1&#34;&gt;&lt;/label&gt;&lt;label class=&#34;nav-button&#34; for=&#34;slide-849752361-2&#34;&gt;&lt;/label&gt;&lt;/div&gt;
+        &lt;div class=&#34;slider-content&#34;&gt;&lt;div class=&#34;slide slide-849752361-0&#34;&gt;
+                    &lt;img src=&#34;1.jpg&#34; /&gt;
+                    &lt;img src=&#34;1.jpg&#34; alt=&#34;&#34; /&gt;
+                &lt;/div&gt;&lt;div class=&#34;slide slide-849752361-1&#34;&gt;
+                    &lt;img src=&#34;2.jpg&#34; /&gt;
+                    &lt;img src=&#34;2.jpg&#34; alt=&#34;&#34; /&gt;
+                &lt;/div&gt;&lt;div class=&#34;slide slide-849752361-2&#34;&gt;
+                    &lt;img src=&#34;3.jpg&#34; /&gt;
+                    &lt;img src=&#34;3.jpg&#34; alt=&#34;&#34; /&gt;
+                &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;style&gt;#slide-849752361-0:checked ~ .slider-content .slide-849752361-0{
+                
+                opacity:1;
+            }
+            #slide-849752361-0:checked ~ .slider-nav .nav-button[for=&#34;slide-849752361-0&#34;]{
+                    background: rgba(255,255,255,1);
+            }
+            #slide-849752361-0:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-849752361-0&#34;] + .nav-arrow{
+                z-index:4;
+            }
+            #slide-849752361-0:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-849752361-0&#34;]:last-of-type{
+                z-index:2;
+            }
+            #slide-849752361-0:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-849752361-0&#34;],
+            #slide-849752361-0:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-849752361-0&#34;] ~ .nav-arrow.prev{
+                z-index:2;
+            }#slide-849752361-1:checked ~ .slider-content .slide-849752361-1{
+                
+                opacity:1;
+            }
+            #slide-849752361-1:checked ~ .slider-nav .nav-button[for=&#34;slide-849752361-1&#34;]{
+                    background: rgba(255,255,255,1);
+            }
+            #slide-849752361-1:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-849752361-1&#34;] + .nav-arrow{
+                z-index:4;
+            }
+            #slide-849752361-1:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-849752361-1&#34;]:last-of-type{
+                z-index:2;
+            }
+            #slide-849752361-1:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-849752361-1&#34;],
+            #slide-849752361-1:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-849752361-1&#34;] ~ .nav-arrow.prev{
+                z-index:2;
+            }#slide-849752361-2:checked ~ .slider-content .slide-849752361-2{
+                
+                opacity:1;
+            }
+            #slide-849752361-2:checked ~ .slider-nav .nav-button[for=&#34;slide-849752361-2&#34;]{
+                    background: rgba(255,255,255,1);
+            }
+            #slide-849752361-2:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-849752361-2&#34;] + .nav-arrow{
+                z-index:4;
+            }
+            #slide-849752361-2:checked ~ .slider-arrow-nav .nav-arrow.next[for=&#34;slide-849752361-2&#34;]:last-of-type{
+                z-index:2;
+            }
+            #slide-849752361-2:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-849752361-2&#34;],
+            #slide-849752361-2:checked ~ .slider-arrow-nav .nav-arrow.prev[for=&#34;slide-849752361-2&#34;] ~ .nav-arrow.prev{
+                z-index:2;
+            }&lt;/style&gt;
+&lt;/div&gt;
+
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;timeline&#34;
+    &gt;Timeline&lt;a href=&#34;#timeline&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;timeline&lt;/span&gt; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;2018-01-01&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;Eat&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;salada&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;today&lt;/span&gt;&amp;#34; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;2018-01-02&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;Eat&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;paella&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;today&lt;/span&gt;&amp;#34; &amp;#34;&lt;span style=&#34;color:#50fa7b&#34;&gt;2018-01-03&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;Eat&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;pizza&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;today&lt;/span&gt;&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;timeline my-4&#34;&gt;&lt;div class=&#34;timeline-item&#34;&gt;
+            &lt;span&gt;2018-01-01 Eat salada today&lt;/span&gt;
+        &lt;/div&gt;&lt;div class=&#34;timeline-item&#34;&gt;
+            &lt;span&gt;2018-01-02 Eat paella today&lt;/span&gt;
+        &lt;/div&gt;&lt;div class=&#34;timeline-item&#34;&gt;
+            &lt;span&gt;2018-01-03 Eat pizza today&lt;/span&gt;
+        &lt;/div&gt;&lt;/div&gt;
+
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;gallery&#34;
+    &gt;Gallery&lt;a href=&#34;#gallery&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;7
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;8
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;gallery&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;![](1.jpg)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;![](2.jpg)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;![](3.jpg)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;![](2.jpg)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;![](3.jpg)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;![](1.jpg)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#ff79c6&#34;&gt;gallery&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;gallery-box&#34;&gt;
+    &lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;tabs&#34;
+    &gt;Tabs&lt;a href=&#34;#tabs&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;15
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;tab-view&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;tab-panel&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;中文&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;checked&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;true&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;百合花（学名：Lilium）通称百合花，是百合目百合科的一属，为多年生草本球根植物，属内物种繁多，经常作为观赏植物。主要分布在亚洲东部、欧洲、北美洲等北半球温带地区，全球已发现有至少96个品种，其中5种产于台湾。近年更有不少经过人工杂交而产生的新品种，如OT百合、东方型百合、玫瑰百合等。百合属对猫来说有剧毒。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#ff79c6&#34;&gt;tab-panel&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;tab-panel&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;English&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Lilium is a genus of herbaceous flowering plants growing from bulbs, all with large prominent flowers. They are the true lilies. Lilies are a group of flowering plants which are important in culture and literature in much of the world. Most species are native to the northern hemisphere and their range is temperate climates and extends into the subtropics. Many other plants have &amp;#34;lily&amp;#34; in their common names, but do not belong to the same genus and are therefore not true lilies.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#ff79c6&#34;&gt;tab-panel&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#ff79c6&#34;&gt;tab-panel&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;Español&amp;#34;&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Las especies de Lilium, comúnmente llamadas azucenas o lirios, constituyen un género con alrededor de 110 integrantes que se incluye dentro de la familia de las liliáceas. Los lirios son herbáceas perennes de tallos erectos con numerosas hojas alternas, lineares a lance balas. Crecen a partir de bulbos formados por capas de escamas carnosas sin túnica.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#ff79c6&#34;&gt;tab-panel&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#ff79c6&#34;&gt;tab-view&lt;/span&gt; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;tabs my-4 flex flex-wrap&#34;&gt;
+
+&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-541768239-&#34;checked=&#34;checked&#34;/&gt;
+&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-541768239-&#34;&gt;中文&lt;/label&gt;
+&lt;div class=&#34;tab order-last hidden w-full grow border-t border-gray-200 p-4 dark:border-gray-600&#34;&gt;百合花（学名：Lilium）通称百合花，是百合目百合科的一属，为多年生草本球根植物，属内物种繁多，经常作为观赏植物。主要分布在亚洲东部、欧洲、北美洲等北半球温带地区，全球已发现有至少96个品种，其中5种产于台湾。近年更有不少经过人工杂交而产生的新品种，如OT百合、东方型百合、玫瑰百合等。百合属对猫来说有剧毒。&lt;/div&gt;
+
+
+&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-371264958-&#34;/&gt;
+&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-371264958-&#34;&gt;English&lt;/label&gt;
+&lt;div class=&#34;tab order-last hidden w-full grow border-t border-gray-200 p-4 dark:border-gray-600&#34;&gt;Lilium is a genus of herbaceous flowering plants growing from bulbs, all with large prominent flowers. They are the true lilies. Lilies are a group of flowering plants which are important in culture and literature in much of the world. Most species are native to the northern hemisphere and their range is temperate climates and extends into the subtropics. Many other plants have &amp;ldquo;lily&amp;rdquo; in their common names, but do not belong to the same genus and are therefore not true lilies.&lt;/div&gt;
+
+
+&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-548739162-&#34;/&gt;
+&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-548739162-&#34;&gt;Español&lt;/label&gt;
+&lt;div class=&#34;tab order-last hidden w-full grow border-t border-gray-200 p-4 dark:border-gray-600&#34;&gt;Las especies de Lilium, comúnmente llamadas azucenas o lirios, constituyen un género con alrededor de 110 integrantes que se incluye dentro de la familia de las liliáceas. Los lirios son herbáceas perennes de tallos erectos con numerosas hojas alternas, lineares a lance balas. Crecen a partir de bulbos formados por capas de escamas carnosas sin túnica.&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+</description></item><item>
+            <title>Flower Gallery</title>
+            <link>https://zen.mabaiz.web.id/2022/04/15/flower-gallery.html/</link>
+            <pubDate>Fri, 15 Apr 2022 02:49:13 +0200</pubDate>
+            <guid>https://zen.mabaiz.web.id/2022/04/15/flower-gallery.html/</guid><description>&lt;div class=&#34;gallery-box&#34;&gt;
+    &lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;grid-gallery&#34;
+    &gt;Grid Gallery&lt;a href=&#34;#grid-gallery&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Spring, the sweet spring, is the year&amp;rsquo;s pleasant king.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;gallery-grid m-3 columns-2 gap-3 sm:columns-3 md:m-4 md:columns-4 md:gap-4&#34;&gt;
+    &lt;p&gt;
+
+
+
+
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+</description></item><item>
+            <title>Typography</title>
+            <link>https://zen.mabaiz.web.id/2022/04/15/typography.html/</link>
+            <pubDate>Fri, 15 Apr 2022 02:49:13 +0200</pubDate>
+            <guid>https://zen.mabaiz.web.id/2022/04/15/typography.html/</guid><description>&lt;p&gt;Until now, trying to style an article, document, or blog post with Tailwind has been a tedious task that required a keen eye for typography and a lot of complex custom CSS.&lt;/p&gt;
+&lt;p&gt;By default, Tailwind removes all of the default browser styling from paragraphs, headings, lists and more. This ends up being really useful for building application UIs because you spend less time undoing user-agent styles, but when you &lt;em&gt;really are&lt;/em&gt; just trying to style some content that came from a rich-text editor in a CMS or a markdown file, it can be surprising and unintuitive.&lt;/p&gt;
+&lt;p&gt;We get lots of complaints about it actually, with people regularly asking us things like:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Why is Tailwind removing the default styles on my &lt;code&gt;h1&lt;/code&gt; elements? How do I disable this? What do you mean I lose all the other base styles too?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We hear you, but we&amp;rsquo;re not convinced that simply disabling our base styles is what you really want. You don&amp;rsquo;t want to have to remove annoying margins every time you use a &lt;code&gt;p&lt;/code&gt; element in a piece of your dashboard UI. And I doubt you really want your blog posts to use the user-agent styles either — you want them to look &lt;em&gt;awesome&lt;/em&gt;, not awful.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;@tailwindcss/typography&lt;/code&gt; plugin is our attempt to give you what you &lt;em&gt;actually&lt;/em&gt; want, without any of the downsides of doing something stupid like disabling our base styles.&lt;/p&gt;
+&lt;p&gt;It adds a new &lt;code&gt;prose&lt;/code&gt; class that you can slap on any block of vanilla HTML content and turn it into a beautiful, well-formatted document:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34; title=&#34;index.html&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;199
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;200
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;201
+&lt;/span&gt;&lt;span style=&#34;background-color:#3d3f4a&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;202
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;background-color:#3d3f4a&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;203
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;background-color:#3d3f4a&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;204
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;205
+&lt;/span&gt;&lt;span style=&#34;background-color:#3d3f4a&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;206
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;207
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;208
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;209
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;210
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;211
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#ff79c6&#34;&gt;article&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;prose&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#ff79c6&#34;&gt;h1&lt;/span&gt;&amp;gt;Garlic bread with cheese: What the science tells us&amp;lt;/&lt;span style=&#34;color:#ff79c6&#34;&gt;h1&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#ff79c6&#34;&gt;p&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex; background-color:#3d3f4a&#34;&gt;&lt;span&gt;    For years parents have espoused the health benefits of eating garlic bread with cheese to their
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex; background-color:#3d3f4a&#34;&gt;&lt;span&gt;    children, with the food earning such an iconic status in our culture that kids will often dress
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex; background-color:#3d3f4a&#34;&gt;&lt;span&gt;    up as warm, cheesy loaf for Halloween.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;/&lt;span style=&#34;color:#ff79c6&#34;&gt;p&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex; background-color:#3d3f4a&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#ff79c6&#34;&gt;p&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    But a recent study shows that the celebrated appetizer may be linked to a series of rabies cases
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    springing up around the country.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;/&lt;span style=&#34;color:#ff79c6&#34;&gt;p&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#6272a4&#34;&gt;&amp;lt;!-- ... --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#ff79c6&#34;&gt;article&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;For more information about how to use the plugin and the features it includes, &lt;a
+    class=&#34;link&#34;
+    href=&#34;https://github.com/tailwindcss/typography/blob/master/README.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;read the documentation&lt;/a
+&gt;
+.&lt;/p&gt;
+&lt;hr&gt;
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;what-to-expect-from-here-on-out&#34;
+    &gt;What to expect from here on out&lt;a href=&#34;#what-to-expect-from-here-on-out&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;p&gt;What follows from here is just a bunch of absolute nonsense I&amp;rsquo;ve written to dogfood the plugin itself. It includes every sensible typographic element I could think of, like &lt;strong&gt;bold text&lt;/strong&gt;, unordered lists, ordered lists, code blocks, block quotes, &lt;em&gt;and even italics&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s important to cover all of these use cases for a few reasons:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;We want everything to look good out of the box.&lt;/li&gt;
+&lt;li&gt;Really just the first reason, that&amp;rsquo;s the whole point of the plugin.&lt;/li&gt;
+&lt;li&gt;Here&amp;rsquo;s a third pretend reason though a list with three items looks more realistic than a list with two items.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now we&amp;rsquo;re going to try out another header style.&lt;/p&gt;
+
+
+&lt;h3 class=&#34;group &#34; id=&#34;typography-should-be-easy&#34;
+    &gt;Typography should be easy&lt;a href=&#34;#typography-should-be-easy&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h3&gt;
+
+&lt;p&gt;So that&amp;rsquo;s a header for you — with any luck if we&amp;rsquo;ve done our job correctly that will look pretty reasonable.&lt;/p&gt;
+&lt;p&gt;Something a wise person once told me about typography is:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Typography is pretty important if you don&amp;rsquo;t want your stuff to look like trash. Make it good then it won&amp;rsquo;t be bad.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It&amp;rsquo;s probably important that images look okay here by default as well:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Now I&amp;rsquo;m going to show you an example of an unordered list to make sure that looks good, too:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;So here is the first item in this list.&lt;/li&gt;
+&lt;li&gt;In this example we&amp;rsquo;re keeping the items short.&lt;/li&gt;
+&lt;li&gt;Later, we&amp;rsquo;ll use longer, more complex list items.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And that&amp;rsquo;s the end of this section.&lt;/p&gt;
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;what-if-we-stack-headings&#34;
+    &gt;What if we stack headings?&lt;a href=&#34;#what-if-we-stack-headings&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+
+
+&lt;h3 class=&#34;group &#34; id=&#34;we-should-make-sure-that-looks-good-too&#34;
+    &gt;We should make sure that looks good, too.&lt;a href=&#34;#we-should-make-sure-that-looks-good-too&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h3&gt;
+
+&lt;p&gt;Sometimes you have headings directly underneath each other. In those cases you often have to undo the top margin on the second heading because it usually looks better for the headings to be closer together than a paragraph followed by a heading should be.&lt;/p&gt;
+
+
+&lt;h3 class=&#34;group &#34; id=&#34;when-a-heading-comes-after-a-paragraph-&#34;
+    &gt;When a heading comes after a paragraph …&lt;a href=&#34;#when-a-heading-comes-after-a-paragraph-&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h3&gt;
+
+&lt;p&gt;When a heading comes after a paragraph, we need a bit more space, like I already mentioned above. Now let&amp;rsquo;s see what a more complex list would look like.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;I often do this thing where list items have headings.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;For some reason I think this looks cool which is unfortunate because it&amp;rsquo;s pretty annoying to get the styles right.&lt;/p&gt;
+&lt;p&gt;I often have two or three paragraphs in these list items, too, so the hard part is getting the spacing between the paragraphs, list item heading, and separate list items to all make sense. Pretty tough honestly, you could make a strong argument that you just shouldn&amp;rsquo;t write this way.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Since this is a list, I need at least two items.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I explained what I&amp;rsquo;m doing already in the previous list item, but a list wouldn&amp;rsquo;t be a list if it only had one item, and we really want this to look realistic. That&amp;rsquo;s why I&amp;rsquo;ve added this second list item so I actually have something to look at when writing the styles.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;It&amp;rsquo;s not a bad idea to add a third item either.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I think it probably would&amp;rsquo;ve been fine to just use two items but three is definitely not worse, and since I seem to be having no trouble making up arbitrary things to type, I might as well include it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After this sort of list I usually have a closing statement or paragraph, because it kinda looks weird jumping right to a heading.&lt;/p&gt;
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;code-should-look-okay-by-default&#34;
+    &gt;Code should look okay by default.&lt;a href=&#34;#code-should-look-okay-by-default&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;p&gt;I think most people are going to use &lt;a
+    class=&#34;link&#34;
+    href=&#34;https://highlightjs.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;highlight.js&lt;/a
+&gt;
+ or &lt;a
+    class=&#34;link&#34;
+    href=&#34;https://prismjs.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prism&lt;/a
+&gt;
+ or something if they want to style their code blocks but it wouldn&amp;rsquo;t hurt to make them look &lt;em&gt;okay&lt;/em&gt; out of the box, even with no syntax highlighting.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s what a default &lt;code&gt;tailwind.config.js&lt;/code&gt; file looks like at the time of writing:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34; title=&#34;tailwind.config.js&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;7
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;module.exports &lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  purge&lt;span style=&#34;color:#ff79c6&#34;&gt;:&lt;/span&gt; [],
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  theme&lt;span style=&#34;color:#ff79c6&#34;&gt;:&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    extend&lt;span style=&#34;color:#ff79c6&#34;&gt;:&lt;/span&gt; {},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  },
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  variants&lt;span style=&#34;color:#ff79c6&#34;&gt;:&lt;/span&gt; {},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  plugins&lt;span style=&#34;color:#ff79c6&#34;&gt;:&lt;/span&gt; [],
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Hopefully that looks good enough to you.&lt;/p&gt;
+
+
+&lt;h3 class=&#34;group &#34; id=&#34;what-about-nested-lists&#34;
+    &gt;What about nested lists?&lt;a href=&#34;#what-about-nested-lists&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h3&gt;
+
+&lt;p&gt;Nested lists basically always look bad which is why editors like Medium don&amp;rsquo;t even let you do it, but I guess since some of you goofballs are going to do it we have to carry the burden of at least making it work.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Nested lists are rarely a good idea.&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;You might feel like you are being really &amp;ldquo;organized&amp;rdquo; or something but you are just creating a gross shape on the screen that is hard to read.&lt;/li&gt;
+&lt;li&gt;Nested navigation in UIs is a bad idea too, keep things as flat as possible.&lt;/li&gt;
+&lt;li&gt;Nesting tons of folders in your source code is also not helpful.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Since we need to have more items, here&amp;rsquo;s another one.&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;I&amp;rsquo;m not sure if we&amp;rsquo;ll bother styling more than two levels deep.&lt;/li&gt;
+&lt;li&gt;Two is already too much, three is guaranteed to be a bad idea.&lt;/li&gt;
+&lt;li&gt;If you nest four levels deep you belong in prison.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Two items isn&amp;rsquo;t really a list, three is good though.&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Again please don&amp;rsquo;t nest lists if you want people to actually read your content.&lt;/li&gt;
+&lt;li&gt;Nobody wants to look at this.&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;m upset that we even have to bother styling this.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The most annoying thing about lists in Markdown is that &lt;code&gt;&amp;lt;li&amp;gt;&lt;/code&gt; elements aren&amp;rsquo;t given a child &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; tag unless there are multiple paragraphs in the list item. That means I have to worry about styling that annoying situation too.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;For example, here&amp;rsquo;s another nested list.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;But this time with a second paragraph.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;These list items won&amp;rsquo;t have &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; tags&lt;/li&gt;
+&lt;li&gt;Because they are only one line each&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;But in this second top-level list item, they will.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is especially annoying because of the spacing on this paragraph.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;As you can see here, because I&amp;rsquo;ve added a second line, this list item now has a &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;
+&lt;p&gt;This is the second line I&amp;rsquo;m talking about by the way.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Finally here&amp;rsquo;s another list item so it&amp;rsquo;s more like a list.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A closing list item, but with no nested list, because why not?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And finally a sentence to close off this section.&lt;/p&gt;
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;there-are-other-elements-we-need-to-style&#34;
+    &gt;There are other elements we need to style&lt;a href=&#34;#there-are-other-elements-we-need-to-style&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;p&gt;I almost forgot to mention links, like &lt;a
+    class=&#34;link&#34;
+    href=&#34;https://tailwindcss.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this link to the Tailwind CSS website&lt;/a
+&gt;
+. We almost made them blue but that&amp;rsquo;s so yesterday, so we went with dark gray, feels edgier.&lt;/p&gt;
+&lt;p&gt;We even included table styles, check it out:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Wrestler&lt;/th&gt;
+&lt;th&gt;Origin&lt;/th&gt;
+&lt;th&gt;Finisher&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Bret &amp;ldquo;The Hitman&amp;rdquo; Hart&lt;/td&gt;
+&lt;td&gt;Calgary, AB&lt;/td&gt;
+&lt;td&gt;Sharpshooter&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Stone Cold Steve Austin&lt;/td&gt;
+&lt;td&gt;Austin, TX&lt;/td&gt;
+&lt;td&gt;Stone Cold Stunner&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Randy Savage&lt;/td&gt;
+&lt;td&gt;Sarasota, FL&lt;/td&gt;
+&lt;td&gt;Elbow Drop&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Vader&lt;/td&gt;
+&lt;td&gt;Boulder, CO&lt;/td&gt;
+&lt;td&gt;Vader Bomb&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Razor Ramon&lt;/td&gt;
+&lt;td&gt;Chuluota, FL&lt;/td&gt;
+&lt;td&gt;Razor&amp;rsquo;s Edge&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;We also need to make sure inline code looks good, like if I wanted to talk about &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt; elements or tell you the good news about &lt;code&gt;@tailwindcss/typography&lt;/code&gt;.&lt;/p&gt;
+
+
+&lt;h3 class=&#34;group &#34; id=&#34;sometimes-i-even-use-code-in-headings&#34;
+    &gt;Sometimes I even use &lt;code&gt;code&lt;/code&gt; in headings&lt;a href=&#34;#sometimes-i-even-use-code-in-headings&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h3&gt;
+
+&lt;p&gt;Even though it&amp;rsquo;s probably a bad idea, and historically I&amp;rsquo;ve had a hard time making it look good. This &lt;em&gt;&amp;ldquo;wrap the code blocks in backticks&amp;rdquo;&lt;/em&gt; trick works pretty well though really.&lt;/p&gt;
+&lt;p&gt;Another thing I&amp;rsquo;ve done in the past is put a &lt;code&gt;code&lt;/code&gt; tag inside of a link, like if I wanted to tell you about the &lt;a
+    class=&#34;link&#34;
+    href=&#34;https://github.com/tailwindcss/docs&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;tailwindcss/docs&lt;/code&gt;&lt;/a
+&gt;
+ repository. I don&amp;rsquo;t love that there is an underline below the backticks but it is absolutely not worth the madness it would require to avoid it.&lt;/p&gt;
+
+
+&lt;h4 class=&#34;group &#34; id=&#34;we-havent-used-an-h4-yet&#34;
+    &gt;We haven&amp;rsquo;t used an &lt;code&gt;h4&lt;/code&gt; yet&lt;a href=&#34;#we-havent-used-an-h4-yet&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h4&gt;
+
+&lt;p&gt;But now we have. Please don&amp;rsquo;t use &lt;code&gt;h5&lt;/code&gt; or &lt;code&gt;h6&lt;/code&gt; in your content, Medium only supports two heading levels for a reason, you animals. I honestly considered using a &lt;code&gt;before&lt;/code&gt; pseudo-element to scream at you if you use an &lt;code&gt;h5&lt;/code&gt; or &lt;code&gt;h6&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;We don&amp;rsquo;t style them at all out of the box because &lt;code&gt;h4&lt;/code&gt; elements are already so small that they are the same size as the body copy. What are we supposed to do with an &lt;code&gt;h5&lt;/code&gt;, make it &lt;em&gt;smaller&lt;/em&gt; than the body copy? No thanks.&lt;/p&gt;
+
+
+&lt;h3 class=&#34;group &#34; id=&#34;we-still-need-to-think-about-stacked-headings-though&#34;
+    &gt;We still need to think about stacked headings though.&lt;a href=&#34;#we-still-need-to-think-about-stacked-headings-though&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h3&gt;
+
+
+
+&lt;h4 class=&#34;group &#34; id=&#34;lets-make-sure-we-dont-screw-that-up-with-h4-elements-either&#34;
+    &gt;Let&amp;rsquo;s make sure we don&amp;rsquo;t screw that up with &lt;code&gt;h4&lt;/code&gt; elements, either.&lt;a href=&#34;#lets-make-sure-we-dont-screw-that-up-with-h4-elements-either&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h4&gt;
+
+&lt;p&gt;Phew, with any luck we have styled the headings above this text and they look pretty good.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s add a closing paragraph here so things end with a decently sized block of text. I can&amp;rsquo;t explain why I want things to end that way but I have to assume it&amp;rsquo;s because I think things will look weird or unbalanced if there is a heading too close to the end of the document.&lt;/p&gt;
+&lt;p&gt;What I&amp;rsquo;ve written here is probably long enough, but adding this final sentence can&amp;rsquo;t hurt.&lt;/p&gt;
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;latex&#34;
+    &gt;LaTeX&lt;a href=&#34;#latex&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-TeX&#34; data-lang=&#34;TeX&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;this is a inline katex: &lt;span style=&#34;color:#f1fa8c&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt; E&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;\sqrt&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;  {p^{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}c^{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;m^{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}c^{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}}}&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;\gamma&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt; mc^{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;} &lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;$&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt; E&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;\sqrt&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;  {p^{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}c^{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;m^{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}c^{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}}}&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;\gamma&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt; mc^{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;} &lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;$&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;$$&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt; E_{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;mc^{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;} &lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;$$&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;\\&lt;/span&gt;&lt;span style=&#34;color:#50fa7b&#34;&gt;[3 &amp;lt; 4\\]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;\begin&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;{&lt;/span&gt;align&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    p(v&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;_&lt;/span&gt;i=1|&lt;span style=&#34;color:#ff79c6&#34;&gt;\mathbf&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;{&lt;/span&gt;h&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}&lt;/span&gt;) &lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;&amp;amp;&lt;/span&gt; = &lt;span style=&#34;color:#ff79c6&#34;&gt;\sigma\left&lt;/span&gt;(&lt;span style=&#34;color:#ff79c6&#34;&gt;\sum&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;_&lt;/span&gt;j w&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;_{&lt;/span&gt;ij&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}&lt;/span&gt;h&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;_&lt;/span&gt;j + b&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;_&lt;/span&gt;i&lt;span style=&#34;color:#ff79c6&#34;&gt;\right&lt;/span&gt;) &lt;span style=&#34;color:#ff79c6&#34;&gt;\\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    p(h&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;_&lt;/span&gt;j=1|&lt;span style=&#34;color:#ff79c6&#34;&gt;\mathbf&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;{&lt;/span&gt;v&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}&lt;/span&gt;) &lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;&amp;amp;&lt;/span&gt; = &lt;span style=&#34;color:#ff79c6&#34;&gt;\sigma\left&lt;/span&gt;(&lt;span style=&#34;color:#ff79c6&#34;&gt;\sum&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;_&lt;/span&gt;i w&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;_{&lt;/span&gt;ij&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}&lt;/span&gt;v&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;_&lt;/span&gt;i + c&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;_&lt;/span&gt;j&lt;span style=&#34;color:#ff79c6&#34;&gt;\right&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;\end&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;{&lt;/span&gt;align&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;this is a inline katex: $ E={\sqrt  {p^{2}c^{2}+m^{2}c^{4}}}=\gamma mc^{2} $&lt;/p&gt;
+&lt;p&gt;$$ E_{0}=mc^{2} $$&lt;/p&gt;
+&lt;p&gt;\[3 &amp;lt; 4\]&lt;/p&gt;
+&lt;p&gt;\begin{align}
+\nonumber p(v_i=1|\mathbf{h}) &amp;amp; = \sigma\left(\sum_j w_{ij}h_j + b_i\right) \
+p(h_j=1|\mathbf{v}) &amp;amp; = \sigma\left(\sum_i w_{ij}v_i + c_j\right)
+\end{align}&lt;/p&gt;</description></item><item>
+            <title>Article Encryption Test</title>
+            <link>https://zen.mabaiz.web.id/2022/04/09/hugo-encrypt.html/</link>
+            <pubDate>Sat, 09 Apr 2022 02:49:13 +0200</pubDate>
+            <guid>https://zen.mabaiz.web.id/2022/04/09/hugo-encrypt.html/</guid><description>
+
+&lt;h2 class=&#34;group &#34; id=&#34;hugo-encrypt&#34;
+    &gt;Hugo Encrypt&lt;a href=&#34;#hugo-encrypt&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;password: &lt;strong&gt;2022&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{% hugo-encrypt 2022 %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;![&lt;span style=&#34;color:#ff79c6&#34;&gt;Night city&lt;/span&gt;](&lt;span style=&#34;color:#50fa7b&#34;&gt;https://unsplash.it/1920/1080/?random=1&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{% /hugo-encrypt %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;The following content is protected.&lt;/p&gt;
+&lt;hr&gt;
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;multi-block-encryption&#34;
+    &gt;Multi-block encryption&lt;a href=&#34;#multi-block-encryption&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Default password: &lt;strong&gt;123456&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{% hugo-encrypt %}}`Here is the test content `{{% /hugo-encrypt %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;The following content is protected.&lt;/p&gt;
+&lt;p&gt;End&amp;hellip;&lt;/p&gt;
+</description></item><item>
+            <title></title>
+            <link>https://zen.mabaiz.web.id/2019/02/15/luna-released.html/</link>
+            <pubDate>Fri, 15 Feb 2019 07:01:32 +0000</pubDate>
+            <guid>https://zen.mabaiz.web.id/2019/02/15/luna-released.html/</guid><description>&lt;p&gt;Hugo theme luna has been released, welcome to use it!&lt;/p&gt;
+</description></item></channel>
+</rss>

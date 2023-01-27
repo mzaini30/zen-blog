@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Luna on Zen</title>
+    <link>https://zen.mabaiz.web.id/categories/luna/</link>
+    <description>Recent content in Luna on Zen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 May 2022 13:12:47 +0200</lastBuildDate><atom:link href="https://zen.mabaiz.web.id/categories/luna/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shortcodes</title>
+      <link>https://zen.mabaiz.web.id/2022/05/02/shortcodes.html/</link>
+      <pubDate>Mon, 02 May 2022 13:12:47 +0200</pubDate>
+      
+      <guid>https://zen.mabaiz.web.id/2022/05/02/shortcodes.html/</guid>
+      <description>Some shortcode examples</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://zen.mabaiz.web.id/2019/02/15/luna-released.html/</link>
+      <pubDate>Fri, 15 Feb 2019 07:01:32 +0000</pubDate>
+      
+      <guid>https://zen.mabaiz.web.id/2019/02/15/luna-released.html/</guid>
+      <description>Hugo theme luna has been released, welcome to use it!</description>
+    </item>
+    
+  </channel>
+</rss>
