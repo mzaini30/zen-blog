@@ -1,12 +1,12 @@
-baseURL: https://hugo-theme-luna.imiku.me/
-languageCode: en-us
-defaultContentLanguage: en-us
-title: "Hugo Theme Luna"
+baseURL: https://zen.mabaiz.web.id/
+languageCode: id
+defaultContentLanguage: id
+title: "Zen"
 enableRobotsTXT: true
 enableEmoji: true
 theme: hugo-theme-luna
 timeout: 60000
-timeZone: Asia/Shanghai
+timeZone: Asia/Makassar
 
 # 可根据 Git 中的提交生成最近更新记录。
 # use git commit log to generate lastmod record
@@ -35,7 +35,7 @@ permalinks:
   pages: /:slug.html # about.html
 
 author:
-  name: Ice-Hazymoon
+  name: Zen
 
 frontmatter:
   lastmod:
@@ -206,15 +206,15 @@ params:
     enabled: true
     provider: "giscus" # custom | giscus
     giscus: &giscus
-      repo: "Ice-Hazymoon/hugo-theme-luna"
-      repoID: "R_kgDOHQOwYw"
-      category: "Comments"
-      categoryID: "DIC_kwDOHQOwY84CP0Sy"
-      mapping: "title"
+      repo: "mzaini30/zen-blog"
+      repoID: "R_kgDOI2V9rg"
+      category: "Announcements"
+      categoryID: "DIC_kwDOI2V9rs4CT0_X"
+      mapping: "pathname"
       reactionsEnabled: 1
       emitMetadata: 0
       lazy: false
-      lang: "en"
+      lang: "id"
 
   # Rss 配置
   # RSS configuration
@@ -315,7 +315,7 @@ params:
   # GitHub 页面设置
   # github page
   github:
-    id: "torvalds" # github user id
+    id: "mzaini30" # github user id
     minStars: 5 # 最小 star 项目 / min stars
 
   # Twitter 页面设置
@@ -323,7 +323,7 @@ params:
   twitter:
     enabled: true
     rsshub: "https://rsshub.rssforever.com" # rsshub url, see https://github.com/DIYgod/RSSHub
-    id: "GenshinImpact" # Twitter ID
+    id: "zenia2020" # Twitter ID
     # 如果为 true，Hugo 将下载图片和视频并进行优化，如果你在中国大陆地区，请谨慎启用这个选项
     # If enabled, Hugo will download videos and images from the Tweet and optimize them
     imageProcessing: true
@@ -427,10 +427,10 @@ params:
   opengraph:
     twitter: # see https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started
       cardType: summary_large_image # summary | summary_large_image
-      site: "@Ice_Hazymoon"
+      site: "@zenia2020"
     image: "featured.png" # in assets folder | false
 
-  author: Ice-Hazymoon
+  author: Zen
   keywords:
     - Hugo
     - Hugo Theme
@@ -450,10 +450,10 @@ languages:
       twitter: 
         enabled: true
         rsshub: "https://rsshub.rssforever.com"
-        id: "Ice_Hazymoon"
+        id: "zenia2020"
         imageProcessing: true
       github:
-        id: "Ice-Hazymoon"
+        id: "mzaini30"
         minStars: 10
       license:
         enabled: true
