@@ -1,8 +1,9 @@
 /* prettier-ignore-start */
-$theme: {{.Param "themeColor"}};
-$font: {{.Param "font"}};
-$headlineCounter: {{.Param "headlineCounter"}};
 /* prettier-ignore-end */
+
+$theme: "#dd6065";
+$font: 'Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif';
+$headlineCounter: false;
 
 @import 'modules/katex';
 @import 'modules/eva-icons';
