@@ -23,8 +23,8 @@ jobs:
               with:
                 node-version: '16.x'
                 
-            # - name: Install Theme
-            #   run: yarn install --production
+            - name: Install Theme
+              run: npx pnpm i --production
                 
             - name: Install PostCSS-CLI
               run: npm install postcss-cli -g
