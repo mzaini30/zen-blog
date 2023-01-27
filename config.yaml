@@ -1,6 +1,6 @@
 baseURL: https://zen.mabaiz.web.id/
-languageCode: id
-defaultContentLanguage: id
+languageCode: en-us
+defaultContentLanguage: en-us
 title: "Zen"
 enableRobotsTXT: true
 enableEmoji: true
