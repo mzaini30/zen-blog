@@ -91,7 +91,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -104,39 +104,51 @@ return /******/ (function(modules) { // webpackBootstrap
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Link = exports.markSwupElements = exports.getCurrentUrl = exports.transitionEnd = exports.fetch = exports.getDataFromHtml = exports.createHistoryRecord = exports.classify = undefined;
+exports.cleanupAnimationClasses = exports.Link = exports.markSwupElements = exports.normalizeUrl = exports.getCurrentUrl = exports.transitionProperty = exports.transitionEnd = exports.fetch = exports.getDataFromHtml = exports.createHistoryRecord = exports.classify = undefined;
 
-var _classify = __webpack_require__(8);
+var _classify = __webpack_require__(7);
 
 var _classify2 = _interopRequireDefault(_classify);
 
-var _createHistoryRecord = __webpack_require__(9);
+var _createHistoryRecord = __webpack_require__(8);
 
 var _createHistoryRecord2 = _interopRequireDefault(_createHistoryRecord);
 
-var _getDataFromHtml = __webpack_require__(10);
+var _getDataFromHtml = __webpack_require__(9);
 
 var _getDataFromHtml2 = _interopRequireDefault(_getDataFromHtml);
 
-var _fetch = __webpack_require__(11);
+var _fetch = __webpack_require__(10);
 
 var _fetch2 = _interopRequireDefault(_fetch);
 
-var _transitionEnd = __webpack_require__(12);
+var _transitionEnd = __webpack_require__(11);
 
 var _transitionEnd2 = _interopRequireDefault(_transitionEnd);
+
+var _transitionProperty = __webpack_require__(12);
+
+var _transitionProperty2 = _interopRequireDefault(_transitionProperty);
 
 var _getCurrentUrl = __webpack_require__(13);
 
 var _getCurrentUrl2 = _interopRequireDefault(_getCurrentUrl);
 
-var _markSwupElements = __webpack_require__(14);
+var _normalizeUrl = __webpack_require__(14);
+
+var _normalizeUrl2 = _interopRequireDefault(_normalizeUrl);
+
+var _markSwupElements = __webpack_require__(15);
 
 var _markSwupElements2 = _interopRequireDefault(_markSwupElements);
 
-var _Link = __webpack_require__(15);
+var _Link = __webpack_require__(2);
 
 var _Link2 = _interopRequireDefault(_Link);
+
+var _cleanupAnimationClasses = __webpack_require__(16);
+
+var _cleanupAnimationClasses2 = _interopRequireDefault(_cleanupAnimationClasses);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -145,9 +157,12 @@ var createHistoryRecord = exports.createHistoryRecord = _createHistoryRecord2.de
 var getDataFromHtml = exports.getDataFromHtml = _getDataFromHtml2.default;
 var fetch = exports.fetch = _fetch2.default;
 var transitionEnd = exports.transitionEnd = _transitionEnd2.default;
+var transitionProperty = exports.transitionProperty = _transitionProperty2.default;
 var getCurrentUrl = exports.getCurrentUrl = _getCurrentUrl2.default;
+var normalizeUrl = exports.normalizeUrl = _normalizeUrl2.default;
 var markSwupElements = exports.markSwupElements = _markSwupElements2.default;
 var Link = exports.Link = _Link2.default;
+var cleanupAnimationClasses = exports.cleanupAnimationClasses = _cleanupAnimationClasses2.default;
 
 /***/ }),
 /* 1 */
@@ -179,6 +194,14 @@ var queryAll = exports.queryAll = function queryAll(selector) {
 	return Array.prototype.slice.call(context.querySelectorAll(selector));
 };
 
+var escapeCssIdentifier = exports.escapeCssIdentifier = function escapeCssIdentifier(ident) {
+	if (window.CSS && window.CSS.escape) {
+		return CSS.escape(ident);
+	} else {
+		return ident;
+	}
+};
+
 /***/ }),
 /* 2 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -186,7 +209,69 @@ var queryAll = exports.queryAll = function queryAll(selector) {
 "use strict";
 
 
-var _index = __webpack_require__(3);
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var Link = function () {
+	function Link(elementOrUrl) {
+		_classCallCheck(this, Link);
+
+		if (elementOrUrl instanceof Element || elementOrUrl instanceof SVGElement) {
+			this.link = elementOrUrl;
+		} else {
+			this.link = document.createElement('a');
+			this.link.href = elementOrUrl;
+		}
+	}
+
+	_createClass(Link, [{
+		key: 'getPath',
+		value: function getPath() {
+			var path = this.link.pathname;
+			if (path[0] !== '/') {
+				path = '/' + path;
+			}
+			return path;
+		}
+	}, {
+		key: 'getAddress',
+		value: function getAddress() {
+			var path = this.link.pathname + this.link.search;
+
+			if (this.link.getAttribute('xlink:href')) {
+				path = this.link.getAttribute('xlink:href');
+			}
+
+			if (path[0] !== '/') {
+				path = '/' + path;
+			}
+			return path;
+		}
+	}, {
+		key: 'getHash',
+		value: function getHash() {
+			return this.link.hash;
+		}
+	}]);
+
+	return Link;
+}();
+
+exports.default = Link;
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _index = __webpack_require__(4);
 
 var _index2 = _interopRequireDefault(_index);
 
@@ -195,7 +280,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 module.exports = _index2.default; // this is here for webpack to expose Swup as window.Swup
 
 /***/ }),
-/* 3 */
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -212,47 +297,51 @@ var _createClass = function () { function defineProperties(target, props) { for 
 // modules
 
 
-var _delegate = __webpack_require__(4);
+var _delegateIt = __webpack_require__(5);
 
-var _delegate2 = _interopRequireDefault(_delegate);
+var _delegateIt2 = _interopRequireDefault(_delegateIt);
 
 var _Cache = __webpack_require__(6);
 
 var _Cache2 = _interopRequireDefault(_Cache);
 
-var _loadPage = __webpack_require__(7);
+var _loadPage = __webpack_require__(17);
 
 var _loadPage2 = _interopRequireDefault(_loadPage);
 
-var _renderPage = __webpack_require__(16);
+var _renderPage = __webpack_require__(18);
 
 var _renderPage2 = _interopRequireDefault(_renderPage);
 
-var _triggerEvent = __webpack_require__(17);
+var _triggerEvent = __webpack_require__(19);
 
 var _triggerEvent2 = _interopRequireDefault(_triggerEvent);
 
-var _on = __webpack_require__(18);
+var _on = __webpack_require__(20);
 
 var _on2 = _interopRequireDefault(_on);
 
-var _off = __webpack_require__(19);
+var _off = __webpack_require__(21);
 
 var _off2 = _interopRequireDefault(_off);
 
-var _updateTransition = __webpack_require__(20);
+var _updateTransition = __webpack_require__(22);
 
 var _updateTransition2 = _interopRequireDefault(_updateTransition);
 
-var _getAnimationPromises = __webpack_require__(21);
+var _getAnchorElement = __webpack_require__(23);
+
+var _getAnchorElement2 = _interopRequireDefault(_getAnchorElement);
+
+var _getAnimationPromises = __webpack_require__(24);
 
 var _getAnimationPromises2 = _interopRequireDefault(_getAnimationPromises);
 
-var _getPageData = __webpack_require__(22);
+var _getPageData = __webpack_require__(25);
 
 var _getPageData2 = _interopRequireDefault(_getPageData);
 
-var _plugins = __webpack_require__(23);
+var _plugins = __webpack_require__(26);
 
 var _utils = __webpack_require__(1);
 
@@ -310,7 +399,7 @@ var Swup = function () {
 			willReplaceContent: []
 		};
 
-		// variable for id of element to scroll to after render
+		// variable for anchor to scroll to after render
 		this.scrollToElement = null;
 		// variable for promise used for preload, so no new loading of the same page starts while page is loading
 		this.preloadPromise = null;
@@ -336,10 +425,13 @@ var Swup = function () {
 		this.updateTransition = _updateTransition2.default;
 		this.getAnimationPromises = _getAnimationPromises2.default;
 		this.getPageData = _getPageData2.default;
+		this.getAnchorElement = _getAnchorElement2.default;
 		this.log = function () {}; // here so it can be used by plugins
 		this.use = _plugins.use;
 		this.unuse = _plugins.unuse;
 		this.findPlugin = _plugins.findPlugin;
+		this.getCurrentUrl = _helpers.getCurrentUrl;
+		this.cleanupAnimationClasses = _helpers.cleanupAnimationClasses;
 
 		// enable swup
 		this.enable();
@@ -357,15 +449,15 @@ var Swup = function () {
 			}
 
 			// add event listeners
-			this.delegatedListeners.click = (0, _delegate2.default)(document, this.options.linkSelector, 'click', this.linkClickHandler.bind(this));
+			this.delegatedListeners.click = (0, _delegateIt2.default)(document, this.options.linkSelector, 'click', this.linkClickHandler.bind(this));
 			window.addEventListener('popstate', this.boundPopStateHandler);
 
 			// initial save to cache
-			var page = (0, _helpers.getDataFromHtml)(document.documentElement.outerHTML, this.options.containers);
-			page.url = page.responseURL = (0, _helpers.getCurrentUrl)();
-			if (this.options.cache) {
-				this.cache.cacheUrl(page);
-			}
+			if (this.options.cache) {}
+			// disabled to avoid caching modified dom state
+			// https://github.com/swup/swup/issues/475
+			// logic moved to preload plugin
+
 
 			// mark swup blocks in html
 			(0, _helpers.markSwupElements)(document.documentElement, this.options.containers);
@@ -439,7 +531,7 @@ var Swup = function () {
 						if (link.getHash() != '') {
 							// link to the same URL with hash
 							this.triggerEvent('samePageWithHash', event);
-							var element = document.querySelector(link.getHash());
+							var element = (0, _getAnchorElement2.default)(link.getHash());
 							if (element != null) {
 								history.replaceState({
 									url: link.getAddress() + link.getHash(),
@@ -483,6 +575,12 @@ var Swup = function () {
 				event.preventDefault();
 			}
 			this.triggerEvent('popState', event);
+
+			if (!this.options.animateHistoryBrowsing) {
+				document.documentElement.classList.remove('is-animating');
+				(0, _helpers.cleanupAnimationClasses)();
+			}
+
 			this.loadPage({ url: link.getAddress() }, event);
 		}
 	}]);
@@ -493,92 +591,96 @@ var Swup = function () {
 exports.default = Swup;
 
 /***/ }),
-/* 4 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var closest = __webpack_require__(5);
-
-/**
- * Delegates event to a selector.
- *
- * @param {Element} element
- * @param {String} selector
- * @param {String} type
- * @param {Function} callback
- * @param {Boolean} useCapture
- * @return {Object}
- */
-function delegate(element, selector, type, callback, useCapture) {
-    var listenerFn = listener.apply(this, arguments);
-
-    element.addEventListener(type, listenerFn, useCapture);
-
-    return {
-        destroy: function() {
-            element.removeEventListener(type, listenerFn, useCapture);
-        }
-    }
-}
-
-/**
- * Finds closest match and invokes callback.
- *
- * @param {Element} element
- * @param {String} selector
- * @param {String} type
- * @param {Function} callback
- * @return {Function}
- */
-function listener(element, selector, type, callback) {
-    return function(e) {
-        e.delegateTarget = closest(e.target, selector);
-
-        if (e.delegateTarget) {
-            callback.call(element, e);
-        }
-    }
-}
-
-module.exports = delegate;
-
-
-/***/ }),
 /* 5 */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-var DOCUMENT_NODE_TYPE = 9;
-
-/**
- * A polyfill for Element.matches()
- */
-if (typeof Element !== 'undefined' && !Element.prototype.matches) {
-    var proto = Element.prototype;
-
-    proto.matches = proto.matchesSelector ||
-                    proto.mozMatchesSelector ||
-                    proto.msMatchesSelector ||
-                    proto.oMatchesSelector ||
-                    proto.webkitMatchesSelector;
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/** Keeps track of raw listeners added to the base elements to avoid duplication */
+const ledger = new WeakMap();
+function editLedger(wanted, baseElement, callback, setup) {
+    var _a, _b;
+    if (!wanted && !ledger.has(baseElement)) {
+        return false;
+    }
+    const elementMap = (_a = ledger.get(baseElement)) !== null && _a !== void 0 ? _a : new WeakMap();
+    ledger.set(baseElement, elementMap);
+    if (!wanted && !ledger.has(baseElement)) {
+        return false;
+    }
+    const setups = (_b = elementMap.get(callback)) !== null && _b !== void 0 ? _b : new Set();
+    elementMap.set(callback, setups);
+    const existed = setups.has(setup);
+    if (wanted) {
+        setups.add(setup);
+    }
+    else {
+        setups.delete(setup);
+    }
+    return existed && wanted;
 }
-
-/**
- * Finds the closest parent that matches a selector.
- *
- * @param {Element} element
- * @param {String} selector
- * @return {Function}
- */
-function closest (element, selector) {
-    while (element && element.nodeType !== DOCUMENT_NODE_TYPE) {
-        if (typeof element.matches === 'function' &&
-            element.matches(selector)) {
-          return element;
+function isEventTarget(elements) {
+    return typeof elements.addEventListener === 'function';
+}
+function safeClosest(event, selector) {
+    let target = event.target;
+    if (target instanceof Text) {
+        target = target.parentElement;
+    }
+    if (target instanceof Element && event.currentTarget instanceof Element) {
+        // `.closest()` may match ancestors of `currentTarget` but we only need its children
+        const closest = target.closest(selector);
+        if (closest && event.currentTarget.contains(closest)) {
+            return closest;
         }
-        element = element.parentNode;
     }
 }
-
-module.exports = closest;
+// This type isn't exported as a declaration, so it needs to be duplicated above
+function delegate(base, selector, type, callback, options) {
+    // Handle Selector-based usage
+    if (typeof base === 'string') {
+        base = document.querySelectorAll(base);
+    }
+    // Handle Array-like based usage
+    if (!isEventTarget(base)) {
+        const subscriptions = Array.prototype.map.call(base, (element) => delegate(element, selector, type, callback, options));
+        return {
+            destroy() {
+                for (const subscription of subscriptions) {
+                    subscription.destroy();
+                }
+            },
+        };
+    }
+    // `document` should never be the base, it's just an easy way to define "global event listeners"
+    const baseElement = base instanceof Document ? base.documentElement : base;
+    // Handle the regular Element usage
+    const capture = Boolean(typeof options === 'object' ? options.capture : options);
+    const listenerFn = (event) => {
+        const delegateTarget = safeClosest(event, selector);
+        if (delegateTarget) {
+            event.delegateTarget = delegateTarget;
+            callback.call(baseElement, event);
+        }
+    };
+    // Drop unsupported `once` option https://github.com/fregante/delegate-it/pull/28#discussion_r863467939
+    if (typeof options === 'object') {
+        delete options.once;
+    }
+    const setup = JSON.stringify({ selector, type, capture });
+    const isAlreadyListening = editLedger(true, baseElement, callback, setup);
+    const delegateSubscription = {
+        destroy() {
+            baseElement.removeEventListener(type, listenerFn, options);
+            editLedger(false, baseElement, callback, setup);
+        },
+    };
+    if (!isAlreadyListening) {
+        baseElement.addEventListener(type, listenerFn, options);
+    }
+    return delegateSubscription;
+}
+/* harmony default export */ __webpack_exports__["default"] = (delegate);
 
 
 /***/ }),
@@ -591,8 +693,11 @@ module.exports = closest;
 Object.defineProperty(exports, "__esModule", {
 	value: true
 });
+exports.Cache = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _helpers = __webpack_require__(0);
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -607,6 +712,7 @@ var Cache = exports.Cache = function () {
 	_createClass(Cache, [{
 		key: 'cacheUrl',
 		value: function cacheUrl(page) {
+			page.url = (0, _helpers.normalizeUrl)(page.url);
 			if (page.url in this.pages === false) {
 				this.pages[page.url] = page;
 			}
@@ -616,16 +722,18 @@ var Cache = exports.Cache = function () {
 	}, {
 		key: 'getPage',
 		value: function getPage(url) {
+			url = (0, _helpers.normalizeUrl)(url);
 			return this.pages[url];
 		}
 	}, {
 		key: 'getCurrentPage',
 		value: function getCurrentPage() {
-			return this.getPage(window.location.pathname + window.location.search);
+			return this.getPage((0, _helpers.getCurrentUrl)());
 		}
 	}, {
 		key: 'exists',
 		value: function exists(url) {
+			url = (0, _helpers.normalizeUrl)(url);
 			return url in this.pages;
 		}
 	}, {
@@ -657,6 +765,281 @@ exports.default = Cache;
 Object.defineProperty(exports, "__esModule", {
 	value: true
 });
+var classify = function classify(text) {
+	var output = text.toString().toLowerCase().replace(/\s+/g, '-') // Replace spaces with -
+	.replace(/\//g, '-') // Replace / with -
+	.replace(/[^\w\-]+/g, '') // Remove all non-word chars
+	.replace(/\-\-+/g, '-') // Replace multiple - with single -
+	.replace(/^-+/, '') // Trim - from start of text
+	.replace(/-+$/, ''); // Trim - from end of text
+	if (output[0] === '/') output = output.splice(1);
+	if (output === '') output = 'homepage';
+	return output;
+};
+
+exports.default = classify;
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+var createHistoryRecord = function createHistoryRecord(url) {
+	window.history.pushState({
+		url: url || window.location.href.split(window.location.hostname)[1],
+		random: Math.random(),
+		source: 'swup'
+	}, document.title, url || window.location.href.split(window.location.hostname)[1]);
+};
+
+exports.default = createHistoryRecord;
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _utils = __webpack_require__(1);
+
+var getDataFromHtml = function getDataFromHtml(html, containers) {
+	var fakeDom = document.createElement('html');
+	fakeDom.innerHTML = html;
+	var blocks = [];
+
+	containers.forEach(function (selector) {
+		if ((0, _utils.query)(selector, fakeDom) == null) {
+			console.warn('[swup] Container ' + selector + ' not found on page.');
+			return null;
+		} else {
+			if ((0, _utils.queryAll)(selector).length !== (0, _utils.queryAll)(selector, fakeDom).length) {
+				console.warn('[swup] Mismatched number of containers found on new page.');
+			}
+			(0, _utils.queryAll)(selector).forEach(function (item, index) {
+				(0, _utils.queryAll)(selector, fakeDom)[index].setAttribute('data-swup', blocks.length);
+				blocks.push((0, _utils.queryAll)(selector, fakeDom)[index].outerHTML);
+			});
+		}
+	});
+
+	var json = {
+		title: (fakeDom.querySelector('title') || {}).innerText,
+		pageClass: fakeDom.querySelector('body').className,
+		originalContent: html,
+		blocks: blocks
+	};
+
+	// to prevent memory leaks
+	fakeDom.innerHTML = '';
+	fakeDom = null;
+
+	return json;
+};
+
+exports.default = getDataFromHtml;
+
+/***/ }),
+/* 10 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var fetch = function fetch(setOptions) {
+	var callback = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+
+	var defaults = {
+		url: window.location.pathname + window.location.search,
+		method: 'GET',
+		data: null,
+		headers: {}
+	};
+
+	var options = _extends({}, defaults, setOptions);
+
+	var request = new XMLHttpRequest();
+
+	request.onreadystatechange = function () {
+		if (request.readyState === 4) {
+			if (request.status !== 500) {
+				callback(request);
+			} else {
+				callback(request);
+			}
+		}
+	};
+
+	request.open(options.method, options.url, true);
+	Object.keys(options.headers).forEach(function (key) {
+		request.setRequestHeader(key, options.headers[key]);
+	});
+	request.send(options.data);
+	return request;
+};
+
+exports.default = fetch;
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+var transitionEnd = function transitionEnd() {
+	if (window.ontransitionend === undefined && window.onwebkittransitionend !== undefined) {
+		return 'webkitTransitionEnd';
+	} else {
+		return 'transitionend';
+	}
+};
+
+exports.default = transitionEnd;
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+var transitionProperty = function transitionProperty() {
+	if (window.ontransitionend === undefined && window.onwebkittransitionend !== undefined) {
+		return 'WebkitTransition';
+	} else {
+		return 'transition';
+	}
+};
+
+exports.default = transitionProperty;
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+var getCurrentUrl = function getCurrentUrl() {
+	return window.location.pathname + window.location.search;
+};
+
+exports.default = getCurrentUrl;
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _Link = __webpack_require__(2);
+
+var _Link2 = _interopRequireDefault(_Link);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var normalizeUrl = function normalizeUrl(url) {
+	return new _Link2.default(url).getAddress();
+};
+
+exports.default = normalizeUrl;
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _utils = __webpack_require__(1);
+
+var markSwupElements = function markSwupElements(element, containers) {
+	var blocks = 0;
+
+	containers.forEach(function (selector) {
+		if ((0, _utils.query)(selector, element) == null) {
+			console.warn('[swup] Container ' + selector + ' not found on page.');
+		} else {
+			(0, _utils.queryAll)(selector).forEach(function (item, index) {
+				(0, _utils.queryAll)(selector, element)[index].setAttribute('data-swup', blocks);
+				blocks++;
+			});
+		}
+	});
+};
+
+exports.default = markSwupElements;
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+var cleanupAnimationClasses = function cleanupAnimationClasses() {
+	document.documentElement.className.split(' ').forEach(function (classItem) {
+		if (
+		// remove "to-{page}" classes
+		new RegExp('^to-').test(classItem) ||
+		// remove all other classes
+		classItem === 'is-changing' || classItem === 'is-rendering' || classItem === 'is-popstate') {
+			document.documentElement.classList.remove(classItem);
+		}
+	});
+};
+
+exports.default = cleanupAnimationClasses;
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -720,7 +1103,7 @@ var loadPage = function loadPage(data, popstate) {
 	// start/skip loading of page
 	if (this.cache.exists(data.url)) {
 		xhrPromise = new Promise(function (resolve) {
-			resolve();
+			resolve(_this.cache.getPage(data.url));
 		});
 		this.triggerEvent('pageRetrievedFromCache');
 	} else {
@@ -734,7 +1117,7 @@ var loadPage = function loadPage(data, popstate) {
 					} else {
 						// get json data
 						var page = _this.getPageData(response);
-						if (page != null) {
+						if (page != null && page.blocks.length > 0) {
 							page.url = data.url;
 						} else {
 							reject(data.url);
@@ -743,8 +1126,8 @@ var loadPage = function loadPage(data, popstate) {
 						// render page
 						_this.cache.cacheUrl(page);
 						_this.triggerEvent('pageLoaded');
+						resolve(page);
 					}
-					resolve();
 				});
 			});
 		} else {
@@ -753,9 +1136,12 @@ var loadPage = function loadPage(data, popstate) {
 	}
 
 	// when everything is ready, handle the outcome
-	Promise.all(animationPromises.concat([xhrPromise])).then(function () {
+	Promise.all([xhrPromise].concat(animationPromises)).then(function (_ref) {
+		var _ref2 = _slicedToArray(_ref, 1),
+		    pageData = _ref2[0];
+
 		// render page
-		_this.renderPage(_this.cache.getPage(data.url), popstate);
+		_this.renderPage(pageData, popstate);
 		_this.preloadPromise = null;
 	}).catch(function (errorUrl) {
 		// rewrite the skipPopStateHandling function to redirect manually when the history.go is processed
@@ -772,107 +1158,7 @@ var loadPage = function loadPage(data, popstate) {
 exports.default = loadPage;
 
 /***/ }),
-/* 8 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-var classify = function classify(text) {
-	var output = text.toString().toLowerCase().replace(/\s+/g, '-') // Replace spaces with -
-	.replace(/\//g, '-') // Replace / with -
-	.replace(/[^\w\-]+/g, '') // Remove all non-word chars
-	.replace(/\-\-+/g, '-') // Replace multiple - with single -
-	.replace(/^-+/, '') // Trim - from start of text
-	.replace(/-+$/, ''); // Trim - from end of text
-	if (output[0] === '/') output = output.splice(1);
-	if (output === '') output = 'homepage';
-	return output;
-};
-
-exports.default = classify;
-
-/***/ }),
-/* 9 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-var createHistoryRecord = function createHistoryRecord(url) {
-	window.history.pushState({
-		url: url || window.location.href.split(window.location.hostname)[1],
-		random: Math.random(),
-		source: 'swup'
-	}, document.getElementsByTagName('title')[0].innerText, url || window.location.href.split(window.location.hostname)[1]);
-};
-
-exports.default = createHistoryRecord;
-
-/***/ }),
-/* 10 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var _utils = __webpack_require__(1);
-
-var getDataFromHtml = function getDataFromHtml(html, containers) {
-	var fakeDom = document.createElement('html');
-	fakeDom.innerHTML = html;
-	var blocks = [];
-
-	var _loop = function _loop(i) {
-		if (fakeDom.querySelector(containers[i]) == null) {
-			// page in invalid
-			return {
-				v: null
-			};
-		} else {
-			(0, _utils.queryAll)(containers[i]).forEach(function (item, index) {
-				(0, _utils.queryAll)(containers[i], fakeDom)[index].setAttribute('data-swup', blocks.length); // marks element with data-swup
-				blocks.push((0, _utils.queryAll)(containers[i], fakeDom)[index].outerHTML);
-			});
-		}
-	};
-
-	for (var i = 0; i < containers.length; i++) {
-		var _ret = _loop(i);
-
-		if ((typeof _ret === 'undefined' ? 'undefined' : _typeof(_ret)) === "object") return _ret.v;
-	}
-
-	var json = {
-		title: fakeDom.querySelector('title').innerText,
-		pageClass: fakeDom.querySelector('body').className,
-		originalContent: html,
-		blocks: blocks
-	};
-
-	// to prevent memory leaks
-	fakeDom.innerHTML = '';
-	fakeDom = null;
-
-	return json;
-};
-
-exports.default = getDataFromHtml;
-
-/***/ }),
-/* 11 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -883,198 +1169,6 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var fetch = function fetch(setOptions) {
-	var callback = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-
-	var defaults = {
-		url: window.location.pathname + window.location.search,
-		method: 'GET',
-		data: null,
-		headers: {}
-	};
-
-	var options = _extends({}, defaults, setOptions);
-
-	var request = new XMLHttpRequest();
-
-	request.onreadystatechange = function () {
-		if (request.readyState === 4) {
-			if (request.status !== 500) {
-				callback(request);
-			} else {
-				callback(request);
-			}
-		}
-	};
-
-	request.open(options.method, options.url, true);
-	Object.keys(options.headers).forEach(function (key) {
-		request.setRequestHeader(key, options.headers[key]);
-	});
-	request.send(options.data);
-	return request;
-};
-
-exports.default = fetch;
-
-/***/ }),
-/* 12 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-var transitionEnd = function transitionEnd() {
-	var el = document.createElement('div');
-
-	var transEndEventNames = {
-		WebkitTransition: 'webkitTransitionEnd',
-		MozTransition: 'transitionend',
-		OTransition: 'oTransitionEnd otransitionend',
-		transition: 'transitionend'
-	};
-
-	for (var name in transEndEventNames) {
-		if (el.style[name] !== undefined) {
-			return transEndEventNames[name];
-		}
-	}
-
-	return false;
-};
-
-exports.default = transitionEnd;
-
-/***/ }),
-/* 13 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-var getCurrentUrl = function getCurrentUrl() {
-	return window.location.pathname + window.location.search;
-};
-
-exports.default = getCurrentUrl;
-
-/***/ }),
-/* 14 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-
-var _utils = __webpack_require__(1);
-
-var markSwupElements = function markSwupElements(element, containers) {
-	var blocks = 0;
-
-	var _loop = function _loop(i) {
-		if (element.querySelector(containers[i]) == null) {
-			console.warn('Element ' + containers[i] + ' is not in current page.');
-		} else {
-			(0, _utils.queryAll)(containers[i]).forEach(function (item, index) {
-				(0, _utils.queryAll)(containers[i], element)[index].setAttribute('data-swup', blocks);
-				blocks++;
-			});
-		}
-	};
-
-	for (var i = 0; i < containers.length; i++) {
-		_loop(i);
-	}
-};
-
-exports.default = markSwupElements;
-
-/***/ }),
-/* 15 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var Link = function () {
-	function Link(elementOrUrl) {
-		_classCallCheck(this, Link);
-
-		if (elementOrUrl instanceof Element || elementOrUrl instanceof SVGElement) {
-			this.link = elementOrUrl;
-		} else {
-			this.link = document.createElement('a');
-			this.link.href = elementOrUrl;
-		}
-	}
-
-	_createClass(Link, [{
-		key: 'getPath',
-		value: function getPath() {
-			var path = this.link.pathname;
-			if (path[0] !== '/') {
-				path = '/' + path;
-			}
-			return path;
-		}
-	}, {
-		key: 'getAddress',
-		value: function getAddress() {
-			var path = this.link.pathname + this.link.search;
-
-			if (this.link.getAttribute('xlink:href')) {
-				path = this.link.getAttribute('xlink:href');
-			}
-
-			if (path[0] !== '/') {
-				path = '/' + path;
-			}
-			return path;
-		}
-	}, {
-		key: 'getHash',
-		value: function getHash() {
-			return this.link.hash;
-		}
-	}]);
-
-	return Link;
-}();
-
-exports.default = Link;
-
-/***/ }),
-/* 16 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _utils = __webpack_require__(1);
 
 var _helpers = __webpack_require__(0);
 
@@ -1083,17 +1177,20 @@ var renderPage = function renderPage(page, popstate) {
 
 	document.documentElement.classList.remove('is-leaving');
 
+	var isCurrentPage = this.getCurrentUrl() === page.url;
+	if (!isCurrentPage) return;
+
 	// replace state in case the url was redirected
-	var link = new _helpers.Link(page.responseURL);
-	if (window.location.pathname !== link.getPath()) {
+	var url = new _helpers.Link(page.responseURL).getPath();
+	if (window.location.pathname !== url) {
 		window.history.replaceState({
-			url: link.getPath(),
+			url: url,
 			random: Math.random(),
 			source: 'swup'
-		}, document.title, link.getPath());
+		}, document.title, url);
 
 		// save new record for redirected url
-		this.cache.cacheUrl(_extends({}, page, { url: link.getPath() }));
+		this.cache.cacheUrl(_extends({}, page, { url: url }));
 	}
 
 	// only add for non-popstate transitions
@@ -1102,15 +1199,12 @@ var renderPage = function renderPage(page, popstate) {
 	}
 
 	this.triggerEvent('willReplaceContent', popstate);
-
 	// replace blocks
 	for (var i = 0; i < page.blocks.length; i++) {
 		document.body.querySelector('[data-swup="' + i + '"]').outerHTML = page.blocks[i];
 	}
-
 	// set title
 	document.title = page.title;
-
 	this.triggerEvent('contentReplaced', popstate);
 	this.triggerEvent('pageView', popstate);
 
@@ -1133,12 +1227,7 @@ var renderPage = function renderPage(page, popstate) {
 		Promise.all(animationPromises).then(function () {
 			_this.triggerEvent('animationInDone');
 			_this.triggerEvent('transitionEnd', popstate);
-			// remove "to-{page}" classes
-			document.documentElement.className.split(' ').forEach(function (classItem) {
-				if (new RegExp('^to-').test(classItem) || classItem === 'is-changing' || classItem === 'is-rendering' || classItem === 'is-popstate') {
-					document.documentElement.classList.remove(classItem);
-				}
-			});
+			_this.cleanupAnimationClasses();
 		});
 	} else {
 		this.triggerEvent('transitionEnd', popstate);
@@ -1151,7 +1240,7 @@ var renderPage = function renderPage(page, popstate) {
 exports.default = renderPage;
 
 /***/ }),
-/* 17 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1178,7 +1267,7 @@ var triggerEvent = function triggerEvent(eventName, originalEvent) {
 exports.default = triggerEvent;
 
 /***/ }),
-/* 18 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1198,7 +1287,7 @@ var on = function on(event, handler) {
 exports.default = on;
 
 /***/ }),
-/* 19 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1238,7 +1327,7 @@ var off = function off(event, handler) {
 exports.default = off;
 
 /***/ }),
-/* 20 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1259,7 +1348,38 @@ var updateTransition = function updateTransition(from, to, custom) {
 exports.default = updateTransition;
 
 /***/ }),
-/* 21 */
+/* 23 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _utils = __webpack_require__(1);
+
+var getAnchorElement = function getAnchorElement(hash) {
+	if (!hash) {
+		return null;
+	}
+
+	if (hash.charAt(0) === '#') {
+		hash = hash.substring(1);
+	}
+
+	hash = decodeURIComponent(hash);
+	hash = (0, _utils.escapeCssIdentifier)(hash);
+
+	// https://html.spec.whatwg.org/#find-a-potential-indicated-element
+	return (0, _utils.query)('#' + hash) || (0, _utils.query)('a[name=\'' + hash + '\']');
+};
+
+exports.default = getAnchorElement;
+
+/***/ }),
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1274,9 +1394,24 @@ var _utils = __webpack_require__(1);
 var _helpers = __webpack_require__(0);
 
 var getAnimationPromises = function getAnimationPromises() {
+	var selector = this.options.animationSelector;
+	var durationProperty = (0, _helpers.transitionProperty)() + 'Duration';
 	var promises = [];
-	var animatedElements = (0, _utils.queryAll)(this.options.animationSelector);
+	var animatedElements = (0, _utils.queryAll)(selector, document.body);
+
+	if (!animatedElements.length) {
+		console.warn('[swup] No animated elements found by selector ' + selector);
+		return [Promise.resolve()];
+	}
+
 	animatedElements.forEach(function (element) {
+		var transitionDuration = window.getComputedStyle(element)[durationProperty];
+		// Resolve immediately if no transition defined
+		if (!transitionDuration || transitionDuration == '0s') {
+			console.warn('[swup] No CSS transition duration defined for element of selector ' + selector);
+			promises.push(Promise.resolve());
+			return;
+		}
 		var promise = new Promise(function (resolve) {
 			element.addEventListener((0, _helpers.transitionEnd)(), function (event) {
 				if (element == event.target) {
@@ -1286,13 +1421,14 @@ var getAnimationPromises = function getAnimationPromises() {
 		});
 		promises.push(promise);
 	});
+
 	return promises;
 };
 
 exports.default = getAnimationPromises;
 
 /***/ }),
-/* 22 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1314,7 +1450,7 @@ var getPageData = function getPageData(request) {
 	if (pageObject) {
 		pageObject.responseURL = request.responseURL ? request.responseURL : window.location.href;
 	} else {
-		console.warn('Received page is invalid.');
+		console.warn('[swup] Received page is invalid.');
 		return null;
 	}
 
@@ -1324,7 +1460,7 @@ var getPageData = function getPageData(request) {
 exports.default = getPageData;
 
 /***/ }),
-/* 23 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";

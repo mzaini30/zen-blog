@@ -96,7 +96,7 @@ See [`config.yaml`](https://github.com/Ice-Hazymoon/hugo-theme-luna/blob/master/
 
 If you prefer to use toml, you can convert it [here](https://www.convertsimple.com/convert-yaml-to-toml)
 
-You can find all available icons at [Eva icons](https://akveo.github.io/eva-icons)
+You can find all available icons at [Eva icons](`https://akveo.github.io/eva-icons)
 
 You can create your website icons by adjusting the [assets/icon.png](https://github.com/Ice-Hazymoon/hugo-theme-luna/blob/master/exampleSite/assets/icon.png) file
 
