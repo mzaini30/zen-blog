@@ -1,0 +1,21 @@
+---
+const { frontmatter } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{frontmatter.judul}</title>
+  </head>
+  <body>
+    <a href="/" class="p-3 font-bold uppercase block">Zen</a>
+    <div class="p-2 prose">
+      <h1>{frontmatter.judul}</h1>
+      <p><em>{frontmatter.ringkasan}</em></p>
+      <slot />
+    </div>
+  </body>
+</html>
