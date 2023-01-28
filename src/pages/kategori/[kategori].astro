@@ -1,1 +1,27 @@
-<p>Hai</p>
+---
+import Index from "../../template/index.astro";
+
+export async function getStaticPaths() {
+  const semuaTulisan = await Astro.glob("../post/*.mdx");
+
+  let kategorinya = [];
+  for (let x of semuaTulisan) {
+    kategorinya.push(x.frontmatter.kategori);
+  }
+  kategorinya = [...new Set(kategorinya)];
+
+  let hasil = [];
+  for (let x of kategorinya) {
+    hasil.push({
+      params: {
+        kategori: x,
+      },
+    });
+  }
+  return hasil;
+}
+
+const { kategori } = Astro.params;
+---
+
+<Index kategori={kategori} />

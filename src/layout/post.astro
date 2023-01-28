@@ -11,8 +11,12 @@ const { frontmatter } = Astro.props;
     <title>{frontmatter.judul}</title>
   </head>
   <body>
-    <a href="/" class="p-3 font-bold uppercase block">Zen</a>
-    <div class="p-2 prose">
+    <a
+      href="/"
+      class="p-3 bg-black text-white font-bold uppercase sticky top-0 block"
+      >Zen</a
+    >
+    <div class="p-2 prose mx-auto py-6">
       <h1>{frontmatter.judul}</h1>
       <p><em>{frontmatter.ringkasan}</em></p>
       <slot />

@@ -1,0 +1,63 @@
+---
+const tulisan = await Astro.glob("../pages/post/*.mdx");
+const { kategori } = Astro.props;
+
+let semuaKategori = [];
+for (let x of tulisan) {
+  semuaKategori.push(x.frontmatter.kategori);
+}
+semuaKategori = [...new Set(semuaKategori)].sort();
+
+let semuaTulisan = [...tulisan].sort((a, b) =>
+  new Date(a.frontmatter.tanggal) < new Date(b.frontmatter.tanggal) ? 1 : -1
+);
+if (kategori) {
+  semuaTulisan = semuaTulisan.filter((x) => x.frontmatter.kategori == kategori);
+}
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      {kategori ? `Kategori ${kategori}` : "Zen"}
+    </title>
+  </head>
+  <body>
+    <h1 class="p-3 font-bold uppercase">Zen</h1>
+    <div class="p-2 flex gap-2 overflow-x-auto sticky top-0 bg-black">
+      <a class="itemnya" href="/">all</a>
+      {
+        semuaKategori.map((x) => (
+          <a class="itemnya" href={`/kategori/${x}`}>
+            {x}
+          </a>
+        ))
+      }
+    </div>
+    {kategori && <p class="font-bold p-2 text-sm pb-0">Kategori {kategori}</p>}
+    <div class="p-2 grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3">
+      {
+        semuaTulisan.map((x) => (
+          <a
+            href={x.url}
+            class="border-2  border-black block p-2"
+            style="box-shadow: 2px 2px 0 0 black"
+          >
+            <h2 class="font-bold text-lg">{x.frontmatter.judul}</h2>
+            <p class="text-sm">{x.frontmatter.ringkasan}</p>
+          </a>
+        ))
+      }
+    </div>
+  </body>
+</html>
+
+<style>
+  .itemnya {
+    @apply text-sm  px-1  text-white font-bold;
+  }
+</style>
