@@ -2,7 +2,7 @@ import rss from '@astrojs/rss';
 
 export async function get(context) {
 	const postImportResult = import.meta.glob('./post/**/*.mdx', { eager: true }); 
-	const posts = Object.values(postImportResult);
+	const posts: any = Object.values(postImportResult);
   return rss({
     title: 'Zen',
     description: 'Website pemrograman',
