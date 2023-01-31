@@ -18,7 +18,7 @@ const { frontmatter } = Astro.props;
       class="p-3 bg-black text-white font-bold uppercase sticky top-0 block"
       >Zen</a
     >
-    <div class="p-2 prose mx-auto py-6">
+    <div class="p-2 prose mx-auto konten py-6">
       <h1>{frontmatter.judul}</h1>
       <p><em>{frontmatter.ringkasan}</em></p>
       <slot />
@@ -28,14 +28,14 @@ const { frontmatter } = Astro.props;
       class="rounded px-4 py-2 bg-black text-white font-bold block w-min whitespace-nowrap mb-5 mx-auto"
       >Join Komunitas</a
     >
-    <div class="w-[65ch] max-w-full mx-auto">
+    <div class="w-[65ch] max-w-[95%] mx-auto">
       <Disqus slug={frontmatter.url} />
     </div>
   </body>
 </html>
 
 <style is:global>
-  img {
+  .konten img {
     @apply mx-auto block;
   }
 </style>
