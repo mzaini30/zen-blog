@@ -1,4 +1,6 @@
 ---
+import Disqus from "../include/disqus.astro";
+
 const { frontmatter } = Astro.props;
 ---
 
@@ -26,6 +28,9 @@ const { frontmatter } = Astro.props;
       class="rounded px-4 py-2 bg-black text-white font-bold block w-min whitespace-nowrap mb-5 mx-auto"
       >Join Komunitas</a
     >
+    <div class="w-[65ch] max-w-full mx-auto">
+      <Disqus slug={frontmatter.url} />
+    </div>
   </body>
 </html>
 
